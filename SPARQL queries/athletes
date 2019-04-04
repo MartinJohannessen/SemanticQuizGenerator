@@ -1,0 +1,20 @@
+SELECT ?person ?name ?sport ?gender ?dateOfBirth ?placeOfBirth ?team WHERE {
+  ?person wdt:P31 wd:Q5.
+  ?person rdfs:label ?name.
+  ?person wdt:P166 wd:Q1859368.
+  ?person wdt:P641 ?s.
+  ?s rdfs:label ?sport.
+  ?person wdt:P21 ?g.
+  ?g rdfs:label ?gender.
+  ?person wdt:P569 ?dateOfBirth.
+  ?person wdt:P19 ?p.
+  ?p rdfs:label ?placeOfBirth.
+  ?person wdt:P54 ?t.
+  ?t rdfs:label ?team.
+  FILTER((LANG(?name)) = "en")
+  FILTER((LANG(?sport)) = "en")
+  FILTER((LANG(?gender)) = "en")
+  FILTER((LANG(?placeOfBirth)) = "en")
+  FILTER((LANG(?team)) = "en")
+}
+LIMIT 50

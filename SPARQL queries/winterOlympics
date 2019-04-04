@@ -1,0 +1,9 @@
+SELECT DISTINCT ?countryLabel ?capitalLabel ?yearLabel ?typeLabel WHERE {
+  ?country wdt:P31 wd:Q6256.
+  ?country wdt:P36 ?capital.
+  ?olympics wdt:P31 wd:Q82414.
+  ?olympics wdt:P17 ?country.
+  ?olympics wdt:P585 ?year.
+  ?olympics wdt:P31 ?type.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".}
+}

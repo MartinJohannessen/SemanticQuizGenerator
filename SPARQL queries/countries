@@ -1,0 +1,21 @@
+SELECT DISTINCT ?country ?countryLabel ?capitalLabel ?languageLabel ?continentLabel ?oceanLabel ?inceptionLabel ?highestLabel ?altitudeLabel
+?populationLabel ?lifeExpectancyLabel ?areaLabel ?governmentLabel ?headOfStateLabel ?sharesBoarderWithLabel
+?waterPercentLabel ?GDPLabel ?incomeLabel WHERE {
+  ?country wdt:P31 wd:Q6256.
+  ?country wdt:P36 ?capital.
+  ?country wdt:P30 ?continent.
+  ?country wdt:P610 ?highest.
+  ?highest wdt:P2044 ?altitude.
+  ?country wdt:P1082 ?population.
+  ?country wdt:P2046 ?area.
+  ?country wdt:P122 ?government.
+  OPTIONAL {?country wdt:P2250 ?lifeExpectancy.}
+  OPTIONAL {?country wdt:P206 ?ocean.}
+  OPTIONAL {?country wdt:P35 ?headOfState.}
+  OPTIONAL {?country wdt:P47 ?sharesBoarderWith.
+            ?sharesBoarderWith wdt:P31 wd:Q6256.}
+  OPTIONAL {?country wdt:P2927 ?waterPercent.}
+  OPTIONAL {?country wdt:P2132 ?GDP.}
+  OPTIONAL {?country wdt:P3529 ?income.}
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".}
+}
