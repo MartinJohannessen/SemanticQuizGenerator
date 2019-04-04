@@ -12,28 +12,27 @@ public class CreateModel {
 	public CreateModel() {
 		Model rdfModel = ModelFactory.createDefaultModel();
         this.rdfsModel = ModelFactory.createRDFSModel(rdfModel);
-        this.iriBase = "http://www.wikidata.org/entity/";
+        this.iriBase = "http://www.wikidata.org/wiki/";
         createModel();
 	}
 	
 	public void createModel() {
         //create resources
-        Resource resCountry = rdfsModel.createResource(iriBase + "Country");
-        Resource resCapital = rdfsModel.createResource(iriBase + "Capital");
-        Resource resContinent = rdfsModel.createResource(iriBase + "Continent");
-        Resource resHighestPoint = rdfsModel.createResource(iriBase + "Highest point");
-        Resource resAltitude = rdfsModel.createResource(iriBase + "Altitude");
-        Resource resPopulation = rdfsModel.createResource(iriBase + "Population");
-        Resource resArea = rdfsModel.createResource(iriBase + "Area");
-        Resource resGovernment = rdfsModel.createResource(iriBase + "Government");
-        Resource resLifeExpectancy = rdfsModel.createResource(iriBase + "Life expectancy");
-        Resource resWater = rdfsModel.createResource(iriBase + "Water"); //sea, ocean, lake, rivers
-        Resource resHeadOfState = rdfsModel.createResource(iriBase + "Head Of State");
-        Resource resSharesBoarderWith = rdfsModel.createResource(iriBase + "Shares boarder with");
+        Resource resCountry = rdfsModel.createResource(iriBase + "Q6256");
+        Resource resCapital = rdfsModel.createResource(iriBase + "Q5119");
+        Resource resContinent = rdfsModel.createResource(iriBase + "Q5107");
+        Resource resHighestPoint = rdfsModel.createResource(iriBase + "Q3393392");
+        Resource resAltitude = rdfsModel.createResource(iriBase + "Q190200");
+        Resource resPopulation = rdfsModel.createResource(iriBase + "Q2625603");
+        Resource resArea = rdfsModel.createResource(iriBase + "Q11500");
+        Resource resGovernment = rdfsModel.createResource(iriBase + "Q7188");
+        Resource resLifeExpectancy = rdfsModel.createResource(iriBase + "Q188419");
+        Resource resBodyOfWater = rdfsModel.createResource(iriBase + "Q15324"); 
+        Resource resHeadOfState = rdfsModel.createResource(iriBase + "Q48352");
         Resource resWaterPercent = rdfsModel.createResource(iriBase + "Water percent");
-        Resource resGDP = rdfsModel.createResource(iriBase + "GDP");
-        Resource resIncome = rdfsModel.createResource(iriBase + "Income");
-        Resource resInception = rdfsModel.createResource(iriBase + "Inception");
-        Resource resAirport = rdfsModel.createResource(iriBase + "Airport");
+        Resource resGDP = rdfsModel.createResource(iriBase + "Q12638");
+        Resource resIncome = rdfsModel.createResource(iriBase + "Q1527264");
+        Resource resInception = rdfsModel.createResource(iriBase + "Q24574747");
+        Resource resAirport = rdfsModel.createResource(iriBase + "Q1248784");
 	}
 }
