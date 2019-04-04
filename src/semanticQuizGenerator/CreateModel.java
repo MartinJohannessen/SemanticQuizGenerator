@@ -35,6 +35,5 @@ public class CreateModel {
         Resource resIncome = rdfsModel.createResource(iriBase + "Income");
         Resource resInception = rdfsModel.createResource(iriBase + "Inception");
         Resource resAirport = rdfsModel.createResource(iriBase + "Airport");
-        Resource resNickname = rdfsModel.createResource(iriBase + "Nickname");
 	}
 }

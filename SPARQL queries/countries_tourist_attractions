@@ -1,0 +1,17 @@
+#selects countries and capitals
+SELECT ?item ?country ?capital WHERE {
+  ?item wdt:P31 wd:Q6256.
+  ?item wdt:P36 ?c.
+  ?item rdfs:label ?country.
+  ?c rdfs:label ?capital.
+  #?tourist wdt:P31 wd:Q570116.
+  #?tourist wdt:P17 ?item.
+  #?tourist rdfs:label ?touristAttraction.
+  ?item wdt:P2250 ?l.
+  ?l rdfs:label ?lifeExpectancy.
+  FILTER((LANG(?lifeExpectancy)) = "en")
+  FILTER((LANG(?country)) = "en")
+  FILTER((LANG(?capital)) = "en")
+  #FILTER((LANG(?touristAttraction)) = "en")
+}
+LIMIT 100

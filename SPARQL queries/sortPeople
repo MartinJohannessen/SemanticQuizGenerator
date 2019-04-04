@@ -1,0 +1,17 @@
+#query som sorterer personer basert på inlinks men når timelimit
+SELECT ?item ?itemLabel ?outcoming ?sitelinks ?incoming WHERE {
+  ?item wdt:P31 wd:Q5.
+  ?item wikibase:statements ?outcoming.
+  ?item wikibase:sitelinks ?sitelinks.
+  {
+    SELECT (COUNT(?s) AS ?incoming) ?item WHERE {
+      ?item wdt:P27 wd:Q20.
+      ?s ?p ?item.
+      _:b1 wikibase:directClaim ?p.
+    }
+    GROUP BY ?item
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY DESC(?incoming)
+LIMIT 20

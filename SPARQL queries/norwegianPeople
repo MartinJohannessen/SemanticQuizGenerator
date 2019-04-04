@@ -1,0 +1,7 @@
+SELECT ?item ?itemLabel WHERE {
+  ?item wdt:P31 wd:Q5.
+  ?item wdt:P27 wd:Q20.
+  ?item rdfs:label ?itemLabel.
+  FILTER(LANG(?itemLabel) = "en").
+}
+LIMIT 20
