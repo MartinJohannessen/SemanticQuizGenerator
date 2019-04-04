@@ -6,3 +6,4 @@ public class QuizGeneratorMain {
 		CreateModel model = new CreateModel();
 	}
 }
+
