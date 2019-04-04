@@ -6,5 +6,4 @@ public class QuizGeneratorMain {
 		System.out.println("Hello World!");
 
 	}
-
 }

@@ -5,7 +5,13 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Lib"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/lib"/>
+	<classpathentry kind="src" path="src">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="SemanticQuizGenerator/Jena Library"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Karolines PC/Downloads/apache-jena-3.10.0/apache-jena-3.10.0/lib/collection-0.7.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Karolines PC/Downloads/apache-jena-3.10.0/apache-jena-3.10.0/lib/commons-cli-1.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Karolines PC/Downloads/apache-jena-3.10.0/apache-jena-3.10.0/lib/commons-codec-1.11.jar"/>
