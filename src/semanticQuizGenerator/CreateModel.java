@@ -5,11 +5,11 @@ import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.RDFS;
 
-public class Model {
+public class CreateModel {
 	InfModel rdfsModel;
 	String iriBase;
 	
-	public Model() {
+	public CreateModel() {
 		Model rdfModel = ModelFactory.createDefaultModel();
         this.rdfsModel = ModelFactory.createRDFSModel(rdfModel);
         this.iriBase = "http://www.wikidata.org/entity/";
