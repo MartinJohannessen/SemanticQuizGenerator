@@ -1,4 +1,9 @@
 package semanticQuizGenerator;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
+import org.apache.jena.ontology.OntModel;
 import org.apache.jena.rdf.model.InfModel;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -14,6 +19,8 @@ public class CreateModel {
         this.rdfsModel = ModelFactory.createRDFSModel(rdfModel);
         this.iriBase = "http://www.wikidata.org/wiki/";
         createModel();
+		OntModel model = ModelFactory.createOntologyModel();
+		readOntology("src/ontology/ontology_v3.1.rdf", model);
 	}
 	
 	public void createModel() {
@@ -34,5 +41,16 @@ public class CreateModel {
         Resource resIncome = rdfsModel.createResource(iriBase + "Q1527264");
         Resource resInception = rdfsModel.createResource(iriBase + "Q24574747");
         Resource resAirport = rdfsModel.createResource(iriBase + "Q1248784");
+	}
+	
+	private void readOntology (String file,OntModel model ) {
+		InputStream in = null;
+		try {
+			in = new FileInputStream(file);
+			model.read(in, "RDF/XML");
+			in.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} 
 	}
 }
