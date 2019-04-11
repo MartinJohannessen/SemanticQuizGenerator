@@ -19,7 +19,7 @@ public class CreateModel {
 	public CreateModel() {
 		Model rdfModel = ModelFactory.createDefaultModel();
         this.rdfsModel = ModelFactory.createRDFSModel(rdfModel);
-        this.iriBase = "http://www.wikidata.org/entity/";
+        this.iriBase = "http://www.wikidata.org/wiki/";
         createModel();
         ontology = ModelFactory.createOntologyModel();     
 		readOntology("src/ontology/ontology_v3.1.rdf", ontology);
@@ -38,7 +38,7 @@ public class CreateModel {
         Resource resArea = rdfsModel.createResource(iriBase + "Q11500");
         Resource resGovernment = rdfsModel.createResource(iriBase + "Q7188");
         Resource resLifeExpectancy = rdfsModel.createResource(iriBase + "Q188419");
-        Resource resBodyOfWater = rdfsModel.createResource(iriBase + "Q15324");
+        Resource resBodyOfWater = rdfsModel.createResource(iriBase + "Q15324"); 
         Resource resHeadOfState = rdfsModel.createResource(iriBase + "Q48352");
         Resource resWaterPercent = rdfsModel.createResource(iriBase + "Water percent");
         Resource resGDP = rdfsModel.createResource(iriBase + "Q12638");
