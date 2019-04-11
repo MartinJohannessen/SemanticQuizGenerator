@@ -12,5 +12,37 @@
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="SemanticQuizGenerator/Jena Library"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="JenaLib/collection-0.7.jar"/>
+	<classpathentry kind="lib" path="JenaLib/commons-cli-1.4.jar"/>
+	<classpathentry kind="lib" path="JenaLib/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="JenaLib/commons-compress-1.17.jar"/>
+	<classpathentry kind="lib" path="JenaLib/commons-csv-1.5.jar"/>
+	<classpathentry kind="lib" path="JenaLib/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="JenaLib/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="JenaLib/httpclient-4.5.5.jar"/>
+	<classpathentry kind="lib" path="JenaLib/httpclient-cache-4.5.5.jar"/>
+	<classpathentry kind="lib" path="JenaLib/httpcore-4.4.9.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jackson-core-2.9.6.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jackson-databind-2.9.6.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jcl-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jena-arq-3.10.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jena-base-3.10.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jena-cmds-3.10.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jena-core-3.10.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jena-dboe-base-3.10.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jena-dboe-index-3.10.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jena-dboe-trans-data-3.10.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jena-dboe-transaction-3.10.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jena-iri-3.10.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jena-rdfconnection-3.10.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jena-shaded-guava-3.10.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jena-tdb-3.10.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jena-tdb2-3.10.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/jsonld-java-0.12.1.jar"/>
+	<classpathentry kind="lib" path="JenaLib/libthrift-0.10.0.jar"/>
+	<classpathentry kind="lib" path="JenaLib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="JenaLib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="JenaLib/slf4j-log4j12-1.7.25.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
