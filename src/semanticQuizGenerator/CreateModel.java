@@ -1,9 +1,4 @@
 package semanticQuizGenerator;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import org.apache.jena.ontology.Individual;
-import org.apache.jena.ontology.OntModel;
 import org.apache.jena.rdf.model.InfModel;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -53,7 +48,7 @@ public class CreateModel {
 		Property propArea = rdfsModel.createProperty(propertyBase + "P2046", "area");
 		Property propGovernment = rdfsModel.createProperty(propertyBase + "P122", "government");
 		Property propLifeExpectancy = rdfsModel.createProperty(propertyBase + "P2250", "life expectancy");
-		Property propWater = rdfsModel.createProperty(propertyBase + "P206", "water");
+		Property propLocatedNextToWater = rdfsModel.createProperty(propertyBase + "P206", "located next to water");
 		Property propHeadOfState = rdfsModel.createProperty(propertyBase + "P35", "head of state");
 		Property propSharesBoarderWith = rdfsModel.createProperty(propertyBase + "P47", "shares boarder with");
 		Property propWaterPercent = rdfsModel.createProperty(propertyBase + "P2927", "water percent");
@@ -61,6 +56,27 @@ public class CreateModel {
 		Property propIncome = rdfsModel.createProperty(propertyBase + "P3529", "income");
 		Property propInception = rdfsModel.createProperty(propertyBase + "P571", "inception");
 		
-		//propCapital.addProperty(RDFS.domain, FOAF.Person);
+		// add the domain country to properties
+		propCapital.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q6256"));
+		propContinent.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q6256"));
+		propHighest.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q6256"));
+		propAltitude.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q6256"));
+		propPopulation.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q6256"));
+		propLifeExpectancy.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q6256"));
+		propArea.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q6256"));
+		propGovernment.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q6256"));
+		propHeadOfState.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q6256"));
+		propSharesBoarderWith.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q6256"));
+		propGDP.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q6256"));
+		propIncome.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q6256"));
+		propLocatedNextToWater.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q6256"));
+		propWaterPercent.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q6256"));
+		
+		// add the domain capital to properties
+		propPopulation.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q5119"));
+		propAltitude.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q5119"));
+		propLocatedNextToWater.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q5119"));
+		propInception.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q5119"));
+		propInception.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q5119"));
 	}
 }
