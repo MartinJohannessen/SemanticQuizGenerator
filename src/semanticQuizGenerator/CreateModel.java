@@ -14,16 +14,12 @@ import org.apache.jena.vocabulary.RDFS;
 public class CreateModel {
 	InfModel rdfsModel;
 	String iriBase;
-	OntModel ontology;
 	
 	public CreateModel() {
 		Model rdfModel = ModelFactory.createDefaultModel();
         this.rdfsModel = ModelFactory.createRDFSModel(rdfModel);
         this.iriBase = "http://www.wikidata.org/wiki/";
         createModel();
-        ontology = ModelFactory.createOntologyModel();     
-		readOntology("src/ontology/ontology_v3.1.rdf", ontology);
-		String ontologyIribase = "http://sws.geonames.org/";
 		addProperties();
 	}
 	
@@ -47,17 +43,6 @@ public class CreateModel {
         Resource resAirport = rdfsModel.createResource(iriBase + "Q1248784");
 	}
 	
-	private void readOntology (String file, OntModel model ) {
-		InputStream in = null;
-		try {
-			in = new FileInputStream(file);
-			model.read(in, "RDF/XML");
-			in.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} 
-	}
-	
 	private void addProperties() {
 		String propertyBase = "https://www.wikidata.org/wiki/Property:";
 		Property propCapital = rdfsModel.createProperty(propertyBase + "P36", "capital");
@@ -75,5 +60,7 @@ public class CreateModel {
 		Property propGDP = rdfsModel.createProperty(propertyBase + "P2132", "GDP");
 		Property propIncome = rdfsModel.createProperty(propertyBase + "P3529", "income");
 		Property propInception = rdfsModel.createProperty(propertyBase + "P571", "inception");
+		
+		//propCapital.addProperty(RDFS.domain, FOAF.Person);
 	}
 }
