@@ -14,12 +14,11 @@ public class CreateModel {
 		Model rdfModel = ModelFactory.createDefaultModel();
         this.rdfsModel = ModelFactory.createRDFSModel(rdfModel);
         this.iriBase = "http://www.wikidata.org/wiki/";
-        createModel();
+        addResources();
 		addProperties();
 	}
 	
-	public void createModel() {
-        //create resources
+	public void addResources() {
 		Resource resCountry = rdfsModel.createResource(iriBase + "Q6256");
         Resource resCapital = rdfsModel.createResource(iriBase + "Q5119");
         Resource resContinent = rdfsModel.createResource(iriBase + "Q5107");
