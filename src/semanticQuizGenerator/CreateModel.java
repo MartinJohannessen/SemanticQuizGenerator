@@ -78,4 +78,6 @@ public class CreateModel {
 		propInception.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q5119"));
 		propInception.addProperty(RDFS.domain, rdfsModel.getResource(iriBase + "Q5119"));
 	}
+	
+	
 }
