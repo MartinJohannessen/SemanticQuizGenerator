@@ -4,12 +4,14 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class CreateContextObject {
+	String iriBase = "http://www.wikidata.org/wiki/";
+	String propertyBase = "https://www.wikidata.org/wiki/Property:";
+	static Map resContextObj;
+	static Map propContextObj;
 	
 	public CreateContextObject() {
-		String iriBase = "http://www.wikidata.org/wiki/";
-		
 		// Create context object for the resources
-		Map resContextObj = new LinkedHashMap() {{
+		resContextObj = new LinkedHashMap() {{
 	        put("country", iriBase + "Q6256");
 	        put("capital", iriBase + "Q5119");
 	        put("continent", iriBase + "Q5107");
@@ -27,11 +29,9 @@ public class CreateContextObject {
 	        put("inception", iriBase + "Q24574747");
 	        put("airport", iriBase + "Q1248784");        
 		}};
-		
-		String propertyBase = "https://www.wikidata.org/wiki/Property:";
 
 		// Create context object for the properties
-		Map propContextObj = new LinkedHashMap() {{
+		propContextObj = new LinkedHashMap() {{
 			put("capital", propertyBase + "P36");
 			put("continent", propertyBase + "P30");
 			put("highest", propertyBase + "P610");
