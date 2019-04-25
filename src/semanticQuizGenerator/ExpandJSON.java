@@ -10,7 +10,6 @@ import com.github.jsonldjava.utils.JsonUtils;
 
 public class ExpandJSON {
 
-	@SuppressWarnings("unchecked")
 	public static Object ExpandJSON(Map contextObj, Object jsonObj) {
 
 		 // create and set an options object
@@ -25,7 +24,6 @@ public class ExpandJSON {
 	
 		return expandedObj;
 	    
-
 		
 	}
 }

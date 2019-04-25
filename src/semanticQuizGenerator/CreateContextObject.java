@@ -29,7 +29,6 @@ public class CreateContextObject {
 				put("inception", iriBase + "Q24574747");
 				put("airport", iriBase + "Q1248784");
 				
-				
 				put("capital", propertyBase + "P36");
 				put("continent", propertyBase + "P30");
 				put("highest", propertyBase + "P610");
