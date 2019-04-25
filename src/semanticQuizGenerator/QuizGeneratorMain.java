@@ -14,18 +14,22 @@ public class QuizGeneratorMain {
 		CreateContextObject contextObject = new CreateContextObject();
 
 		String capitalsJSON = JSONParser.readJson("src/data/capitals.json");
-		Object capitalsJsonObj = null;
-
+		String countriesJSON = JSONParser.readJson("src/data/countries.json");
+		String allJSON = countriesJSON.substring(0, countriesJSON.length()-2)+", "+capitalsJSON.substring(1);
+		
+		CreateContextObject createContext = new CreateContextObject();
+		Object jsonObj = null;
 		try {
-			capitalsJsonObj = JsonUtils.fromString(capitalsJSON);
+			jsonObj = JsonUtils.fromString(allJSON);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
-
-		CreateContextObject createContext = new CreateContextObject();
 		
-		ExpandJSON expandJSON = new ExpandJSON(createContext.contextObj, capitalsJsonObj);
+
+		
+		Object expandedJSON = ExpandJSON.ExpandJSON(createContext.contextObj, jsonObj);
+		
+		
 
 	}
 }
