@@ -9,14 +9,23 @@ import com.github.jsonldjava.utils.JsonUtils;
 
 public class ExpandJSON {
 
-	public ExpandJSON(CreateContextObject contextObject, Object jsonObj) {
-		Map<String, CreateContextObject> json = new LinkedHashMap<String, CreateContextObject>();
-		if (jsonObj instanceof Map)
-			System.out.println("hey");
-		json = (Map<String, CreateContextObject>) jsonObj;
+	@SuppressWarnings("unchecked")
+	public ExpandJSON(Map contextObj, Object jsonObj) {
 
-		json.put("@context", contextObject);
-
-		Object expandedObj = JsonLdProcessor.expand(json);
+		Map json = new LinkedHashMap();
+	    if (jsonObj instanceof Map) {
+	    	System.out.println("hey");
+	        json = (Map) jsonObj;
+	    }
+	    json.put("@context", contextObj);
+	    Object expandedObj = JsonLdProcessor.expand(json);
+	    
+	    try {
+			System.out.println(JsonUtils.toPrettyString(expandedObj));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 }

@@ -22,7 +22,10 @@ public class QuizGeneratorMain {
 			e.printStackTrace();
 		}
 
-		ExpandJSON expandJSON = new ExpandJSON(contextObject, capitalsJsonObj);
+
+		CreateContextObject createContext = new CreateContextObject();
+		
+		ExpandJSON expandJSON = new ExpandJSON(createContext.contextObj, capitalsJsonObj);
 
 	}
 }
