@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.github.jsonldjava.utils.JsonUtils;
 
@@ -22,7 +23,6 @@ public class QuizGeneratorMain {
 			e.printStackTrace();
 		}
 
-		ExpandJSON expandJSON = new ExpandJSON(contextObject, capitalsJsonObj);
-
+		
 	}
 }
