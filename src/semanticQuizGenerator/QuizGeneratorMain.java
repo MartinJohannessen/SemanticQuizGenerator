@@ -8,22 +8,21 @@ import com.fasterxml.jackson.core.JsonParseException;
 import com.github.jsonldjava.utils.JsonUtils;
 
 public class QuizGeneratorMain {
-	
+
 	public static void main(String[] args) {
+
 		CreateContextObject contextObject = new CreateContextObject();
-		
+
 		String capitalsJSON = JSONParser.readJson("src/data/capitals.json");
 		Object capitalsJsonObj = null;
-		
-		
-		 try {
+
+		try {
 			capitalsJsonObj = JsonUtils.fromString(capitalsJSON);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		 
+
 		ExpandJSON expandJSON = new ExpandJSON(contextObject, capitalsJsonObj);
-		
+
 	}
 }
-

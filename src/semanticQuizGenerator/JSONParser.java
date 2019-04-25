@@ -11,26 +11,25 @@ import com.github.jsonldjava.core.JsonLdOptions;
 import com.github.jsonldjava.core.JsonLdProcessor;
 
 public class JSONParser {
-	
-   
-	public static String readJson(String path){
-        StringBuilder json = new StringBuilder();
 
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(path)))) {
+	public static String readJson(String path) {
+		StringBuilder json = new StringBuilder();
 
-            // read line by line
-            String line;
-            while ((line = br.readLine()) != null) {
-                json.append(line).append("\n");
-            }
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(path)))) {
 
-        } catch (IOException e) {
-            System.err.format("IOException: %s%n", e);
-        }
+			// read line by line
+			String line;
+			while ((line = br.readLine()) != null) {
+				json.append(line).append("\n");
+			}
 
-        String jsonString  = json.toString();
+		} catch (IOException e) {
+			System.err.format("IOException: %s%n", e);
+		}
 
-        return jsonString;
-    }
-	
+		String jsonString = json.toString();
+
+		return jsonString;
+	}
+
 }
