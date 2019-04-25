@@ -4,13 +4,12 @@ import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import com.fasterxml.jackson.core.JsonGenerationException;
 import com.github.jsonldjava.core.JsonLdOptions;
 import com.github.jsonldjava.core.JsonLdProcessor;
 import com.github.jsonldjava.utils.JsonUtils;
 
 public class ExpandJSON {
-	
+
 	@SuppressWarnings("unchecked")
 	public ExpandJSON(Map contextObj, Object jsonObj) {
 

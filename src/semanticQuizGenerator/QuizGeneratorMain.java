@@ -12,8 +12,6 @@ public class QuizGeneratorMain {
 
 	public static void main(String[] args) {
 
-		CreateContextObject contextObject = new CreateContextObject();
-
 		String capitalsJSON = JSONParser.readJson("src/data/capitals.json");
 		Object capitalsJsonObj = null;
 
@@ -23,6 +21,8 @@ public class QuizGeneratorMain {
 			e.printStackTrace();
 		}
 
+		CreateContextObject createContext = new CreateContextObject();
 		
+		ExpandJSON expandJSON = new ExpandJSON(createContext.contextObj, capitalsJsonObj);
 	}
 }
