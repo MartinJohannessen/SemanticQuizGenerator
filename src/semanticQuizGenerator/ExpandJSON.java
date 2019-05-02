@@ -10,8 +10,7 @@ import com.github.jsonldjava.utils.JsonUtils;
 
 public class ExpandJSON {
 
-	@SuppressWarnings("unchecked")
-	public ExpandJSON(Map contextObj, Object jsonObj) {
+	public static Object ExpandJSON(Map contextObj, Object jsonObj) {
 
 		 // create and set an options object
 	    JsonLdOptions expandOptions = new JsonLdOptions("http://www.wikidata.org/wiki/");
@@ -19,14 +18,12 @@ public class ExpandJSON {
 	  
 	    // expand the JSON object
 	    Object expandedObj = JsonLdProcessor.expand(jsonObj, expandOptions);
-	 
 	    
-	    try {
-			System.out.println(JsonUtils.toPrettyString(expandedObj));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+	    Object flattenedExpandedObj = JsonLdProcessor.flatten(expandedObj, new JsonLdOptions());
+	    
+	
+		return expandedObj;
+	    
 		
 	}
 }
