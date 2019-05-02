@@ -27,12 +27,13 @@ public class QuizGeneratorMain {
 		
 		Object expandedObj = ExpandJSON.ExpandJSON(createContext.contextObj, jsonObj);
 		
-		try {
+		/*try {
 			System.out.println(JsonUtils.toPrettyString(expandedObj));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}*/
 		
+		Queries.createQuery(expandedObj);
 	}
 }
