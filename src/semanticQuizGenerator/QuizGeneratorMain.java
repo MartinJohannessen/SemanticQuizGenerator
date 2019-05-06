@@ -1,8 +1,14 @@
 package semanticQuizGenerator;
 
 import java.io.IOException;
+import java.io.StringReader;
 import java.util.LinkedHashMap;
 import java.util.Map;
+
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.riot.Lang;
+import org.apache.jena.riot.RDFDataMgr;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.JsonParseException;
@@ -27,9 +33,10 @@ public class QuizGeneratorMain {
 		
 		Object expandedObj = ExpandJSON.ExpandJSON(createContext.contextObj, jsonObj);
 		
-		String jsonStr = JsonUtils.toPrettyString(jsonObj);
-		CreateModel model = new CreateModel(jsonStr);
-		//model.rdfsModel.write(System.out, "TURTLE");
-		Queries query = new Queries(model.rdfsModel);
+		String jsonStr = JsonUtils.toPrettyString(expandedObj);
+	    Model model = ModelFactory.createDefaultModel();
+	    RDFDataMgr.read(model, new StringReader(jsonStr), "", Lang.JSONLD);
+	   // model.write(System.out, "TURTLE");
+		Queries query = new Queries(model);
 	}
 }

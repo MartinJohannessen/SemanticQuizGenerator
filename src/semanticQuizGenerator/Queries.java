@@ -6,12 +6,13 @@ import java.util.LinkedHashMap;
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.InfModel;
+import org.apache.jena.rdf.model.Model;
 
 public class Queries {
 	Object country;
-	static InfModel model;
+	static Model model;
 	
-	public Queries(InfModel model) {
+	public Queries(Model model) {
 		//ArrayList expanded = (ArrayList) expandedJSON;
 		//this.country = expanded.get(10);
 		//inkedHashMap object = (LinkedHashMap) this.country;
