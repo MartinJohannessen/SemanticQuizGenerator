@@ -36,8 +36,8 @@ public class Queries {
 	public static void query() {
 		ResultSet resultSet = QueryExecutionFactory
 		        .create(""
-		            + "SELECT ?s ?p ?o WHERE {"
-		            + "    ?s ?p ?o ."
+		            + "SELECT ?capital WHERE {"
+		        	+ "		?c ?https://www.wikidata.org/wiki/Property:P36 ?capital."
 		            + "}", model)
 		        .execSelect();
 

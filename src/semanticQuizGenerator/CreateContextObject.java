@@ -12,6 +12,8 @@ public class CreateContextObject {
 		// Create context object for the resources
 		contextObj = new LinkedHashMap() {
 			{
+				put("countryIRI", "@id");
+				put("capitalIRI", "@id");
 				put("country", iriBase + "Q6256");
 				put("capital", iriBase + "Q5119");
 				put("continent", iriBase + "Q5107");
@@ -20,7 +22,7 @@ public class CreateContextObject {
 				put("population", iriBase + "Q2625603");
 				put("area", iriBase + "Q11500");
 				put("government", iriBase + "Q7188");
-				put("lifeExpectancy", iriBase + "Q188419");
+				put("life expectancy", iriBase + "Q188419");
 				put("bodyOfWater", iriBase + "Q15324");
 				put("headOfState", iriBase + "Q48352");
 				put("waterPercent", iriBase + "Water percent");

@@ -36,7 +36,7 @@ public class QuizGeneratorMain {
 		String jsonStr = JsonUtils.toPrettyString(expandedObj);
 	    Model model = ModelFactory.createDefaultModel();
 	    RDFDataMgr.read(model, new StringReader(jsonStr), "", Lang.JSONLD);
-	   // model.write(System.out, "TURTLE");
-		Queries query = new Queries(model);
+	    model.write(System.out, "TURTLE");
+		//Queries query = new Queries(model);
 	}
 }
