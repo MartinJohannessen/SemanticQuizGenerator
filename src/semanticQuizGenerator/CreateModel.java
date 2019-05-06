@@ -21,7 +21,6 @@ public class CreateModel {
 		this.iriBase = "http://www.wikidata.org/wiki/";
 		addResources();
 		addProperties();
-		RDFDataMgr.read(rdfsModel, new StringReader(jsonStr), "", Lang.JSONLD);
 	}
 
 	public void addResources() {

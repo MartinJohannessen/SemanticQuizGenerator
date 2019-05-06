@@ -37,6 +37,6 @@ public class QuizGeneratorMain {
 	    Model model = ModelFactory.createDefaultModel();
 	    RDFDataMgr.read(model, new StringReader(jsonStr), "", Lang.JSONLD);
 	    //model.write(System.out, "TURTLE");
-		Queries query = new Queries(model);
+		Hints query = new Hints(model, "http://www.wikidata.org/entity/Q20");
 	}
 }
