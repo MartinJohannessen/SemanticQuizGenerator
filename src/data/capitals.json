@@ -2,823 +2,823 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q727",
       "country":"Kingdom of the Netherlands",
-      "capitalName":"Amsterdam",
+      "capitalLabel":"Amsterdam",
       "population":"860124"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3921",
       "country":"Zimbabwe",
-      "capital":"Harare",
+      "capitalLabel":"Harare",
       "population":"1606000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3881",
       "country":"Zambia",
-      "capital":"Lusaka",
+      "capitalLabel":"Lusaka",
       "population":"2467467"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3766",
       "country":"State of Syria",
-      "capital":"Damascus",
+      "capitalLabel":"Damascus",
       "population":"1754000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1947",
       "country":"South Sudan",
-      "capital":"Juba",
+      "capitalLabel":"Juba",
       "population":"372410"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3718",
       "country":"Senegal",
-      "capital":"Dakar",
+      "capitalLabel":"Dakar",
       "population":"1146053"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3826",
       "country":"Oman",
-      "capital":"Muscat",
+      "capitalLabel":"Muscat",
       "population":"646027"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q9279",
       "country":"Brunei",
-      "capital":"Bandar Seri Begawan",
+      "capitalLabel":"Bandar Seri Begawan",
       "population":"50000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3866",
       "country":"Tanzania",
-      "capital":"Dodoma",
+      "capitalLabel":"Dodoma",
       "population":"410956"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3616",
       "country":"Iran",
-      "capital":"Tehran",
+      "capitalLabel":"Tehran",
       "population":"8846782"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1354",
       "country":"Bangladesh",
-      "capital":"Dhaka",
+      "capitalLabel":"Dhaka",
       "population":"8906039"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q2933",
       "country":"Paraguay",
-      "capital":"Asunción",
+      "capitalLabel":"Asunción",
       "population":"524190"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3915",
       "country":"Madagascar",
-      "capital":"Antananarivo",
+      "capitalLabel":"Antananarivo",
       "population":"2610000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3692",
       "country":"Saudi Arabia",
-      "capital":"Riyadh",
+      "capitalLabel":"Riyadh",
       "population":"8002100"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1461",
       "country":"Philippines",
-      "capital":"Manila",
+      "capitalLabel":"Manila",
       "population":"1780148"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q727",
       "country":"Netherlands",
-      "capital":"Amsterdam",
+      "capitalLabel":"Amsterdam",
       "population":"860124"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q2467",
       "country":"Bahamas",
-      "capital":"Nassau",
+      "capitalLabel":"Nassau",
       "population":"274400"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3674",
       "country":"Niger",
-      "capital":"Niamey",
+      "capitalLabel":"Niamey",
       "population":"1026848"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3748",
       "country":"Liberia",
-      "capital":"Monrovia",
+      "capitalLabel":"Monrovia",
       "population":"1021762"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q956",
       "country":"People's Republic of China",
-      "capital":"Beijing",
+      "capitalLabel":"Beijing",
       "population":"21710000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q9270",
       "country":"Bhutan",
-      "capital":"Thimphu",
+      "capitalLabel":"Thimphu",
       "population":"104000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3110",
       "country":"El Salvador",
-      "capital":"San Salvador",
+      "capitalLabel":"San Salvador",
       "population":"567698"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q2841",
       "country":"Colombia",
-      "capital":"Bogotá",
+      "capitalLabel":"Bogotá",
       "population":"7150000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q597",
       "country":"Portugal",
-      "capital":"Lisbon",
+      "capitalLabel":"Lisbon",
       "population":"505526"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q2887",
       "country":"Chile",
-      "capital":"Santiago",
+      "capitalLabel":"Santiago",
       "population":"6123491"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3726",
       "country":"Gambia",
-      "capital":"Banjul",
+      "capitalLabel":"Banjul",
       "population":"31356"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1530",
       "country":"Iraq",
-      "capital":"Baghdad",
+      "capitalLabel":"Baghdad",
       "population":"6960000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1519",
       "country":"United Arab Emirates",
-      "capital":"Abu Dhabi",
+      "capitalLabel":"Abu Dhabi",
       "population":"1000000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q129352",
       "country":"Artsakh",
-      "capital":"Stepanakert",
+      "capitalLabel":"Stepanakert",
       "population":"49848"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3820",
       "country":"Lebanon",
-      "capital":"Beirut",
+      "capitalLabel":"Beirut",
       "population":"361366"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3780",
       "country":"Sierra Leone",
-      "capital":"Freetown",
+      "capitalLabel":"Freetown",
       "population":"951000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q472",
       "country":"Bulgaria",
-      "capital":"Sofia",
+      "capitalLabel":"Sofia",
       "population":"1286383"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3761",
       "country":"Ghana",
-      "capital":"Accra",
+      "capitalLabel":"Accra",
       "population":"2291352"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3844",
       "country":"Republic of the Congo",
-      "capital":"Brazzaville",
+      "capitalLabel":"Brazzaville",
       "population":"1827000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1491",
       "country":"Bolivia",
-      "capital":"La Paz",
+      "capitalLabel":"La Paz",
       "population":"757184"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q2907",
       "country":"Bolivia",
-      "capital":"Sucre",
+      "capitalLabel":"Sucre",
       "population":"300000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1218",
       "country":"Israel",
-      "capital":"Jerusalem",
+      "capitalLabel":"Jerusalem",
       "population":"865721"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q585",
       "country":"Norway",
-      "capital":"Oslo",
+      "capitalLabel":"Oslo",
       "population":"634463"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3901",
       "country":"Comoros",
-      "capital":"Moroni",
+      "capitalLabel":"Moroni",
       "population":"111329"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1335",
       "country":"Uruguay",
-      "capital":"Montevideo",
+      "capitalLabel":"Montevideo",
       "population":"1319108"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3787",
       "country":"Nigeria",
-      "capital":"Abuja",
+      "capitalLabel":"Abuja",
       "population":"1235880"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3238",
       "country":"Honduras",
-      "capital":"Tegucigalpa",
+      "capitalLabel":"Tegucigalpa",
       "population":"1126534"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3932",
       "country":"São Tomé and Príncipe",
-      "capital":"São Tomé",
+      "capitalLabel":"São Tomé",
       "population":"56166"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3876",
       "country":"Malawi",
-      "capital":"Lilongwe",
+      "capitalLabel":"Lilongwe",
       "population":"781538"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3739",
       "country":"Guinea-Bissau",
-      "capital":"Bissau",
+      "capitalLabel":"Bissau",
       "population":"395954"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3624",
       "country":"Ethiopia",
-      "capital":"Addis Ababa",
+      "capitalLabel":"Addis Ababa",
       "population":"3041002"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1930",
       "country":"Canada",
-      "capital":"Ottawa",
+      "capitalLabel":"Ottawa",
       "population":"934243"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1773",
       "country":"Latvia",
-      "capital":"Riga",
+      "capitalLabel":"Riga",
       "population":"698529"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1963",
       "country":"Sudan",
-      "capital":"Khartoum",
+      "capitalLabel":"Khartoum",
       "population":"5345000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3859",
       "country":"Rwanda",
-      "capital":"Kigali",
+      "capitalLabel":"Kigali",
       "population":"1132686"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3037",
       "country":"Nepal",
-      "capital":"Kathmandu",
+      "capitalLabel":"Kathmandu",
       "population":"975453"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3642",
       "country":"Eritrea",
-      "capital":"Asmara",
+      "capitalLabel":"Asmara",
       "population":"649000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3572",
       "country":"Tunisia",
-      "capital":"Tunis",
+      "capitalLabel":"Tunis",
       "population":"1200000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3870",
       "country":"Kenya",
-      "capital":"Nairobi",
+      "capitalLabel":"Nairobi",
       "population":"5545000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1533",
       "country":"Venezuela",
-      "capital":"Caracas",
+      "capitalLabel":"Caracas",
       "population":"1943901"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3832",
       "country":"Central African Republic",
-      "capital":"Bangui",
+      "capitalLabel":"Bangui",
       "population":"734350"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q2471",
       "country":"Yemen",
-      "capital":"Sana'a",
+      "capitalLabel":"Sana'a",
       "population":"2957000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3935",
       "country":"Namibia",
-      "capital":"Windhoek",
+      "capitalLabel":"Windhoek",
       "population":"322500"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q5838",
       "country":"Afghanistan",
-      "capital":"Kabul",
+      "capitalLabel":"Kabul",
       "population":"3678034"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3805",
       "country":"Jordan",
-      "capital":"Amman",
+      "capitalLabel":"Amman",
       "population":"4007526"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3604",
       "country":"Djibouti",
-      "capital":"Djibouti",
+      "capitalLabel":"Djibouti",
       "population":"562000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1861",
       "country":"Thailand",
-      "capital":"Bangkok",
+      "capitalLabel":"Bangkok",
       "population":"5696409"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3070",
       "country":"Costa Rica",
-      "capital":"San José",
+      "capitalLabel":"San José",
       "population":"288054"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q269",
       "country":"Uzbekistan",
-      "capital":"Tashkent",
+      "capitalLabel":"Tashkent",
       "population":"2424100"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q8684",
       "country":"South Korea",
-      "capital":"Seoul",
+      "capitalLabel":"Seoul",
       "population":"9806538"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q2449",
       "country":"Somalia",
-      "capital":"Mogadishu",
+      "capitalLabel":"Mogadishu",
       "population":"2120000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3904",
       "country":"Eswatini",
-      "capital":"Mbabane",
+      "capitalLabel":"Mbabane",
       "population":"94874"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3777",
       "country":"Burkina Faso",
-      "capital":"Ouagadougou",
+      "capitalLabel":"Ouagadougou",
       "population":"1626950"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3825",
       "country":"Gabon",
-      "capital":"Libreville",
+      "capitalLabel":"Libreville",
       "population":"797003"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3688",
       "country":"Mauritania",
-      "capital":"Nouakchott",
+      "capitalLabel":"Nouakchott",
       "population":"1077169"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3751",
       "country":"Cape Verde",
-      "capital":"Praia",
+      "capitalLabel":"Praia",
       "population":"127832"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3766",
       "country":"Syria",
-      "capital":"Damascus",
+      "capitalLabel":"Damascus",
       "population":"1754000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q2844",
       "country":"Brazil",
-      "capital":"Brasília",
+      "capitalLabel":"Brasília",
       "population":"2789761"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1780",
       "country":"Slovakia",
-      "capital":"Bratislava",
+      "capitalLabel":"Bratislava",
       "population":"425923"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1489",
       "country":"Mexico",
-      "capital":"Mexico City",
+      "capitalLabel":"Mexico City",
       "population":"8918653"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q2900",
       "country":"Ecuador",
-      "capital":"Quito",
+      "capitalLabel":"Quito",
       "population":"2735987"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3926",
       "country":"South Africa",
-      "capital":"Pretoria",
+      "capitalLabel":"Pretoria",
       "population":"741651"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1490",
       "country":"Japan",
-      "capital":"Tokyo",
+      "capitalLabel":"Tokyo",
       "population":"13784212"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3792",
       "country":"Togo",
-      "capital":"Lomé",
+      "capitalLabel":"Lomé",
       "population":"837437"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3882",
       "country":"Bahrain",
-      "capital":"Manama",
+      "capitalLabel":"Manama",
       "population":"157474"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3659",
       "country":"Chad",
-      "capital":"N'Djamena",
+      "capitalLabel":"N'Djamena",
       "population":"1092066"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3940",
       "country":"Seychelles",
-      "capital":"Victoria",
+      "capitalLabel":"Victoria",
       "population":"26450"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3640",
       "country":"Turkey",
-      "capital":"Ankara",
+      "capitalLabel":"Ankara",
       "population":"5503985"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q131233",
       "country":"Kiribati",
-      "capital":"South Tarawa",
+      "capitalLabel":"South Tarawa",
       "population":"50182"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q101418",
       "country":"Eswatini",
-      "capital":"Lobamba",
+      "capitalLabel":"Lobamba",
       "population":"5800"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3579",
       "country":"Libya",
-      "capital":"Tripoli",
+      "capitalLabel":"Tripoli",
       "population":"1126000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3733",
       "country":"Guinea",
-      "capital":"Conakry",
+      "capitalLabel":"Conakry",
       "population":"1667864"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q2868",
       "country":"Peru",
-      "capital":"Lima",
+      "capitalLabel":"Lima",
       "population":"8574974"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1486",
       "country":"Argentina",
-      "capital":"Buenos Aires",
+      "capitalLabel":"Buenos Aires",
       "population":"2890151"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3768",
       "country":"Ivory Coast",
-      "capital":"Yamoussoukro",
+      "capitalLabel":"Yamoussoukro",
       "population":"355573"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3551",
       "country":"Morocco",
-      "capital":"Rabat",
+      "capitalLabel":"Rabat",
       "population":"628000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1362",
       "country":"Pakistan",
-      "capital":"Islamabad",
+      "capitalLabel":"Islamabad",
       "population":"1365000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3808",
       "country":"Cameroon",
-      "capital":"Yaoundé",
+      "capitalLabel":"Yaoundé",
       "population":"2440462"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3919",
       "country":"Botswana",
-      "capital":"Gaborone",
+      "capitalLabel":"Gaborone",
       "population":"231626"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3897",
       "country":"Angola",
-      "capital":"Luanda",
+      "capitalLabel":"Luanda",
       "population":"7250000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1867",
       "country":"Taiwan",
-      "capital":"Taipei",
+      "capitalLabel":"Taipei",
       "population":"2684567"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3894",
       "country":"Uganda",
-      "capital":"Kampala",
+      "capitalLabel":"Kampala",
       "population":"1659600"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q987",
       "country":"India",
-      "capital":"New Delhi",
+      "capitalLabel":"New Delhi",
       "population":"257803"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1435",
       "country":"Croatia",
-      "capital":"Zagreb",
+      "capitalLabel":"Zagreb",
       "population":"790017"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1748",
       "country":"Denmark",
-      "capital":"Copenhagen",
+      "capitalLabel":"Copenhagen",
       "population":"602481"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q34261",
       "country":"Haiti",
-      "capital":"Port-au-Prince",
+      "capitalLabel":"Port-au-Prince",
       "population":"987310"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q34126",
       "country":"Tuvalu",
-      "capital":"Funafuti",
+      "capitalLabel":"Funafuti",
       "population":"6025"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q23438",
       "country":"Turkmenistan",
-      "capital":"Ashgabat",
+      "capitalLabel":"Ashgabat",
       "population":"1031992"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q41474",
       "country":"Saint Vincent and the Grenadines",
-      "capital":"Kingstown",
+      "capitalLabel":"Kingstown",
       "population":"25418"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q9361",
       "country":"Kyrgyzstan",
-      "capital":"Bishkek",
+      "capitalLabel":"Bishkek",
       "population":"965900"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q9310",
       "country":"East Timor",
-      "capital":"Dili",
+      "capitalLabel":"Dili",
       "population":"222323"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q23564",
       "country":"Montenegro",
-      "capital":"Podgorica",
+      "capitalLabel":"Podgorica",
       "population":"187085"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q37701",
       "country":"South Africa",
-      "capital":"Bloemfontein",
+      "capitalLabel":"Bloemfontein",
       "population":"256185"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q30966",
       "country":"Niue",
-      "capital":"Alofi",
+      "capitalLabel":"Alofi",
       "population":"1611"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q9326",
       "country":"Laos",
-      "capital":"Vientiane",
+      "capitalLabel":"Vientiane",
       "population":"760000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q36168",
       "country":"Barbados",
-      "capital":"Bridgetown",
+      "capitalLabel":"Bridgetown",
       "population":"110000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q9365",
       "country":"Tajikistan",
-      "capital":"Dushanbe",
+      "capitalLabel":"Dushanbe",
       "population":"780000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q34692",
       "country":"Jamaica",
-      "capital":"Kingston",
+      "capitalLabel":"Kingston",
       "population":"580000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q40921",
       "country":"Solomon Islands",
-      "capital":"Honiara",
+      "capitalLabel":"Honiara",
       "population":"64609"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q23661",
       "country":"New Zealand",
-      "capital":"Wellington",
+      "capitalLabel":"Wellington",
       "population":"398300"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q37806",
       "country":"Vanuatu",
-      "capital":"Port Vila",
+      "capitalLabel":"Port Vila",
       "population":"51437"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q37400",
       "country":"Myanmar",
-      "capital":"Naypyidaw",
+      "capitalLabel":"Naypyidaw",
       "population":"1160242"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q18808",
       "country":"North Korea",
-      "capital":"Pyongyang",
+      "capitalLabel":"Pyongyang",
       "population":"2863000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q61",
       "country":"United States of America",
-      "capital":"Washington, D.C.",
+      "capitalLabel":"Washington, D.C.",
       "population":"672228"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q42751",
       "country":"Federated States of Micronesia",
-      "capital":"Palikir",
+      "capitalLabel":"Palikir",
       "population":"6227"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q70",
       "country":"Switzerland",
-      "capital":"Bern",
+      "capitalLabel":"Bern",
       "population":"133798"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q9347",
       "country":"Maldives",
-      "capital":"Malé",
+      "capitalLabel":"Malé",
       "population":"133019"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q10690",
       "country":"Wales",
-      "capital":"Cardiff",
+      "capitalLabel":"Cardiff",
       "population":"361468"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q38807",
       "country":"Fiji",
-      "capital":"Suva",
+      "capitalLabel":"Suva",
       "population":"88271"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q39178",
       "country":"Trinidad and Tobago",
-      "capital":"Port of Spain",
+      "capitalLabel":"Port of Spain",
       "population":"37074"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q34820",
       "country":"Dominican Republic",
-      "capital":"Santo Domingo",
+      "capitalLabel":"Santo Domingo",
       "population":"2581827"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q36260",
       "country":"Samoa",
-      "capital":"Apia",
+      "capitalLabel":"Apia",
       "population":"37708"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q41547",
       "country":"Grenada",
-      "capital":"St. George's",
+      "capitalLabel":"St. George's",
       "population":"4315"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q10717",
       "country":"Guyana",
-      "capital":"Georgetown",
+      "capitalLabel":"Georgetown",
       "population":"235017"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q36262",
       "country":"Antigua and Barbuda",
-      "capital":"St. John's",
+      "capitalLabel":"St. John's",
       "population":"21926"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q41295",
       "country":"Saint Kitts and Nevis",
-      "capital":"Basseterre",
+      "capitalLabel":"Basseterre",
       "population":"13220"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q85",
       "country":"Egypt",
-      "capital":"Cairo",
+      "capitalLabel":"Cairo",
       "population":"19500000"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q47837",
       "country":"Sahrawi Arab Democratic Republic",
-      "capital":"Laayoune",
+      "capitalLabel":"Laayoune",
       "population":"217732"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q41963",
       "country":"Sri Lanka",
-      "capital":"Sri Jayawardenepura Kotte",
+      "capitalLabel":"Sri Jayawardenepura Kotte",
       "population":"115826"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q36281",
       "country":"Dominica",
-      "capital":"Roseau",
+      "capitalLabel":"Roseau",
       "population":"16582"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q35381",
       "country":"Sri Lanka",
-      "capital":"Colombo",
+      "capitalLabel":"Colombo",
       "population":"752993"
    },
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q36526",
       "country":"Papua New Guinea",
-      "capital":"Port Moresby",
+      "capitalLabel":"Port Moresby",
       "population":"364125",
       "altitude":"35",
       "airport":"Jacksons International Airport",
@@ -828,7 +828,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1085",
       "country":"Czech Republic",
-      "capital":"Prague",
+      "capitalLabel":"Prague",
       "population":"1294513",
       "altitude":"235",
       "airport":"Prag-Letňany Airport",
@@ -838,7 +838,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3889",
       "country":"Mozambique",
-      "capital":"Maputo",
+      "capitalLabel":"Maputo",
       "population":"1191613",
       "altitude":"47",
       "airport":"Maputo International Airport",
@@ -848,7 +848,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1858",
       "country":"Vietnam",
-      "capital":"Hanoi",
+      "capitalLabel":"Hanoi",
       "population":"7785000",
       "altitude":"10",
       "airport":"Noi Bai International Airport",
@@ -858,7 +858,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1858",
       "country":"Vietnam",
-      "capital":"Hanoi",
+      "capitalLabel":"Hanoi",
       "population":"7785000",
       "altitude":"16",
       "airport":"Noi Bai International Airport",
@@ -868,7 +868,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1085",
       "country":"Czech Republic",
-      "capital":"Prague",
+      "capitalLabel":"Prague",
       "population":"1294513",
       "altitude":"235",
       "airport":"Prag-Letňany Airport",
@@ -878,7 +878,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1850",
       "country":"Cambodia",
-      "capital":"Phnom Penh",
+      "capitalLabel":"Phnom Penh",
       "population":"1501725",
       "altitude":"14",
       "airport":"Phnom Penh International Airport",
@@ -888,7 +888,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3274",
       "country":"Nicaragua",
-      "capital":"Managua",
+      "capitalLabel":"Managua",
       "population":"1028808",
       "altitude":"83",
       "airport":"Augusto C. Sandino International Airport",
@@ -898,7 +898,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1085",
       "country":"Czech Republic",
-      "capital":"Prague",
+      "capitalLabel":"Prague",
       "population":"1294513",
       "altitude":"235",
       "airport":"Prag-Letňany Airport",
@@ -908,7 +908,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1085",
       "country":"Czech Republic",
-      "capital":"Prague",
+      "capitalLabel":"Prague",
       "population":"1294513",
       "altitude":"235",
       "airport":"Prag-Letňany Airport",
@@ -918,7 +918,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3630",
       "country":"Indonesia",
-      "capital":"Jakarta",
+      "capitalLabel":"Jakarta",
       "population":"9769000",
       "altitude":"8",
       "airport":"Kemayoran Airport",
@@ -928,7 +928,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3630",
       "country":"Indonesia",
-      "capital":"Jakarta",
+      "capitalLabel":"Jakarta",
       "population":"9769000",
       "altitude":"16",
       "airport":"Kemayoran Airport",
@@ -938,7 +938,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q41699",
       "country":"Saint Lucia",
-      "capital":"Castries",
+      "capitalLabel":"Castries",
       "population":"70000",
       "altitude":"2",
       "airport":"George F. L. Charles Airport",
@@ -948,7 +948,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3630",
       "country":"Indonesia",
-      "capital":"Jakarta",
+      "capitalLabel":"Jakarta",
       "population":"9769000",
       "altitude":"8",
       "airport":"Kemayoran Airport",
@@ -958,7 +958,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3630",
       "country":"Indonesia",
-      "capital":"Jakarta",
+      "capitalLabel":"Jakarta",
       "population":"9769000",
       "altitude":"16",
       "airport":"Kemayoran Airport",
@@ -968,7 +968,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1085",
       "country":"Czech Republic",
-      "capital":"Prague",
+      "capitalLabel":"Prague",
       "population":"1294513",
       "altitude":"235",
       "airport":"Prag-Letňany Airport",
@@ -978,7 +978,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3114",
       "country":"Australia",
-      "capital":"Canberra",
+      "capitalLabel":"Canberra",
       "population":"381488",
       "altitude":"1893",
       "airport":"Canberra International Airport",
@@ -988,7 +988,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1085",
       "country":"Czech Republic",
-      "capital":"Prague",
+      "capitalLabel":"Prague",
       "population":"1294513",
       "altitude":"235",
       "airport":"Prag-Letňany Airport",
@@ -998,7 +998,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q84",
       "country":"United Kingdom",
-      "capital":"London",
+      "capitalLabel":"London",
       "population":"8787892",
       "altitude":"35",
       "airport":"Cricklewood Aerodrome",
@@ -1008,7 +1008,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q5465",
       "country":"South Africa",
-      "capital":"Cape Town",
+      "capitalLabel":"Cape Town",
       "population":"3740026",
       "altitude":"1590",
       "airport":"Cape Town International Airport",
@@ -1018,7 +1018,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1858",
       "country":"Vietnam",
-      "capital":"Hanoi",
+      "capitalLabel":"Hanoi",
       "population":"7785000",
       "altitude":"10",
       "airport":"Gia Lam Airport",
@@ -1028,7 +1028,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1858",
       "country":"Vietnam",
-      "capital":"Hanoi",
+      "capitalLabel":"Hanoi",
       "population":"7785000",
       "altitude":"16",
       "airport":"Gia Lam Airport",
@@ -1038,7 +1038,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3838",
       "country":"Democratic Republic of the Congo",
-      "capital":"Kinshasa",
+      "capitalLabel":"Kinshasa",
       "population":"11855000",
       "altitude":"240",
       "airport":"N'Dolo Airport",
@@ -1048,7 +1048,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3861",
       "country":"Qatar",
-      "capital":"Doha",
+      "capitalLabel":"Doha",
       "population":"1312947",
       "altitude":"0",
       "airport":"Hamad International Airport",
@@ -1058,7 +1058,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1085",
       "country":"Czech Republic",
-      "capital":"Prague",
+      "capitalLabel":"Prague",
       "population":"1294513",
       "altitude":"235",
       "airport":"Prag-Letňany Airport",
@@ -1068,7 +1068,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q84",
       "country":"United Kingdom",
-      "capital":"London",
+      "capitalLabel":"London",
       "population":"8787892",
       "altitude":"35",
       "airport":"Cricklewood Aerodrome",
@@ -1078,7 +1078,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3909",
       "country":"Lesotho",
-      "capital":"Maseru",
+      "capitalLabel":"Maseru",
       "population":"330790",
       "altitude":"1600",
       "airport":"Mejametalana Airport",
@@ -1088,7 +1088,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q23430",
       "country":"Mongolia",
-      "capital":"Ulaanbaatar",
+      "capitalLabel":"Ulaanbaatar",
       "population":"1396288",
       "altitude":"1350",
       "airport":"Chinggis Khaan International Airport",
@@ -1098,7 +1098,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1865",
       "country":"Malaysia",
-      "capital":"Kuala Lumpur",
+      "capitalLabel":"Kuala Lumpur",
       "population":"7590000",
       "altitude":"66",
       "airport":"Kuala Lumpur International Airport",
@@ -1108,7 +1108,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3861",
       "country":"Qatar",
-      "capital":"Doha",
+      "capitalLabel":"Doha",
       "population":"1312947",
       "altitude":"0",
       "airport":"Al Udeid Air Base",
@@ -1118,7 +1118,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3838",
       "country":"Democratic Republic of the Congo",
-      "capital":"Kinshasa",
+      "capitalLabel":"Kinshasa",
       "population":"11855000",
       "altitude":"240",
       "airport":"N'djili Airport",
@@ -1128,7 +1128,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3929",
       "country":"Mauritius",
-      "capital":"Port Louis",
+      "capitalLabel":"Port Louis",
       "population":"149194",
       "altitude":"134",
       "airport":"Sir Seewoosagur Ramgoolam International Airport",
@@ -1138,7 +1138,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3561",
       "country":"Algeria",
-      "capital":"Algiers",
+      "capitalLabel":"Algiers",
       "population":"3415811",
       "altitude":"0",
       "airport":"Houari Boumediene Airport",
@@ -1148,7 +1148,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1520",
       "country":"Kazakhstan",
-      "capital":"Nur-Sultan",
+      "capitalLabel":"Nur-Sultan",
       "population":"1078362",
       "altitude":"347",
       "airport":"Kokshetau Airport",
@@ -1158,7 +1158,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1850",
       "country":"Cambodia",
-      "capital":"Phnom Penh",
+      "capitalLabel":"Phnom Penh",
       "population":"1501725",
       "altitude":"14",
       "airport":"Phnom Penh International Airport",
@@ -1168,7 +1168,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q1865",
       "country":"Malaysia",
-      "capital":"Kuala Lumpur",
+      "capitalLabel":"Kuala Lumpur",
       "population":"7590000",
       "altitude":"66",
       "airport":"Kuala Lumpur International Airport",
@@ -1178,7 +1178,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q19660",
       "country":"Romania",
-      "capital":"Bucharest",
+      "capitalLabel":"Bucharest",
       "population":"1883425",
       "altitude":"70",
       "airport":"Aurel Vlaicu International Airport",
@@ -1188,7 +1188,7 @@
    {
       "capitalIRI":"http://www.wikidata.org/entity/Q3889",
       "country":"Mozambique",
-      "capital":"Maputo",
+      "capitalLabel":"Maputo",
       "population":"1191613",
       "altitude":"47",
       "airport":"Inhaca Airport",

@@ -3,6 +3,8 @@ package semanticQuizGenerator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import org.apache.jena.vocabulary.RDFS;
+
 public class CreateContextObject {
 	String iriBase = "http://www.wikidata.org/wiki/";
 	String propertyBase = "https://www.wikidata.org/wiki/Property:";
@@ -16,7 +18,7 @@ public class CreateContextObject {
 				put("capitalIRI", "@id");
 				put("country", iriBase + "Q6256");
 				put("capital", iriBase + "Q5119");
-				put("capitalName", iriBase + "Q5119");
+				put("capitalLabel", iriBase + "Q5119");
 				put("continent", iriBase + "Q5107");
 				put("highestPoint", iriBase + "Q3393392");
 				put("altitude", iriBase + "Q190200");
@@ -48,6 +50,7 @@ public class CreateContextObject {
 				put("GDP", propertyBase + "P2132");
 				put("income", propertyBase + "P3529");
 				put("inception", propertyBase + "P571");
+
 			}
 		};
 

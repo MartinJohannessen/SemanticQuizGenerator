@@ -3,7 +3,7 @@
       "countryIRI":"http://www.wikidata.org/entity/Q148",
       "country":"People's Republic of China",
       "capital":"http://www.wikidata.org/entity/Q956",
-      "capitalName":"Beijing",
+      "capitalLabel":"Beijing",
       "continent":"Asia",
       "highest":"Mount Everest",
       "altitude":"8848",

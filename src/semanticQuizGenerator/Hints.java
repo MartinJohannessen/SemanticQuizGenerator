@@ -26,20 +26,20 @@ public class Hints {
     }
     
     public static void addHints() {
-    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P36");
-    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P30");
-    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P610");
-    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P2044");
-    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P1082");
-    	//query(countryIRI, "https://www.wikidata.org/wiki/Property:P2046"); area
-    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P122");
+    	//query(countryIRI, "https://www.wikidata.org/wiki/Property:P36", "capital");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P30", "continent");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P610", "highest point");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P2044", "altitude of highest point");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P1082", "population");
+    	//query(countryIRI, "https://www.wikidata.org/wiki/Property:P2046", "area");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P122", "type of government");
     }
    
-    public static void query(String entity, String property) {
+    public static void query(String entity, String property, String subject) {
         ParameterizedSparqlString pss = new ParameterizedSparqlString();
         pss.setCommandText(""
-                + "SELECT ?continent WHERE {"
-                + "     ?e ?p ?continent."
+                + "SELECT ?s WHERE {"
+                + "     ?e ?p ?s."
                 + "}");
        
         pss.setIri("e", entity);
@@ -50,14 +50,13 @@ public class Hints {
         
         resultSet.forEachRemaining(qsol -> {
         	String s = qsol.toString();
-        	s = cleanString(s);
+        	s = cleanString(s, subject);
         	hints.add(s);
         });
     }
     
-    public static String cleanString(String string) {
-        string = string.replace("( ?", "");
-        string = string.replace(" = \"", ": ");
+    public static String cleanString(String string, String subject) {
+    	string = string.replace("( ?s = \"", subject + ": ");
         string = string.replace("\" )", "");
         return string;
     }
