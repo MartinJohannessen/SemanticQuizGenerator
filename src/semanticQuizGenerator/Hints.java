@@ -19,6 +19,7 @@ public class Hints {
         this.model = model;
         this.countryIRI = countryIRI;
         this.hints = new ArrayList<String>();
+        addHints();
         for (String s: hints) {
         	System.out.println(s);
         }
@@ -26,7 +27,12 @@ public class Hints {
     
     public static void addHints() {
     	query(countryIRI, "https://www.wikidata.org/wiki/Property:P36");
-    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P36");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P30");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P610");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P2044");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P1082");
+    	//query(countryIRI, "https://www.wikidata.org/wiki/Property:P2046"); area
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P122");
     }
    
     public static void query(String entity, String property) {
