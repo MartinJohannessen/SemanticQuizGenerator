@@ -18,7 +18,8 @@ public class Queries {
 		//inkedHashMap object = (LinkedHashMap) this.country;
 		//getCountry(object);
 		this.model = model;
-		query();
+		query("https://www.wikidata.org/wiki/Q811");
+		getContinent("https://www.wikidata.org/wiki/Q811");
 	}
 	
 	public static String getCountry(LinkedHashMap object) {
@@ -33,11 +34,22 @@ public class Queries {
 		return string;
 	}
 	
-	public static void query() {
+	public static void query(String entity) {
 		ResultSet resultSet = QueryExecutionFactory
 		        .create(""
-		            + "SELECT ?capital WHERE {"
-		        	+ "		?c ?https://www.wikidata.org/wiki/Property:P36 ?capital."
+		            + "SELECT ?population WHERE {"
+		        	+ "		<http://www.wikidata.org/entity/Q258> <https://www.wikidata.org/wiki/Property:P1082> ?population."
+		            + "}", model)
+		        .execSelect();
+
+		    resultSet.forEachRemaining(qsol -> System.out.println(qsol.toString()));
+	}
+	
+	public static void getContinent(String entity) {
+		ResultSet resultSet = QueryExecutionFactory
+		        .create(""
+		            + "SELECT ?continent WHERE {"
+		        	+ "		<http://www.wikidata.org/entity/Q20> <https://www.wikidata.org/wiki/Property:P30> ?continent."
 		            + "}", model)
 		        .execSelect();
 
