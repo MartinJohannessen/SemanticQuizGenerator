@@ -34,6 +34,6 @@ public class QuizGeneratorMain {
 			e.printStackTrace();
 		}*/
 		
-		Queries.createQuery(expandedObj);
+		Queries country = new Queries(expandedObj);
 	}
 }
