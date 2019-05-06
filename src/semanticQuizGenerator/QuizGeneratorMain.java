@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -21,25 +22,13 @@ public class QuizGeneratorMain {
 
 	public static void main(String[] args) throws JsonGenerationException, IOException {
 
-		String capitalsJSON = JSONParser.readJson("src/data/capitals.json");
-		String countriesJSON = JSONParser.readJson("src/data/countries.json");
-		String allJSON = countriesJSON.substring(0, countriesJSON.length()-2)+", "+capitalsJSON.substring(1);
-		
-		CreateContextObject createContext = new CreateContextObject();
-		Object jsonObj = null;
-		try {
-			jsonObj = JsonUtils.fromString(allJSON);
-		} catch (IOException e) {
-			e.printStackTrace();}
-		
 
-		Object expandedObj = ExpandJSON.ExpandJSON(createContext.contextObj, jsonObj);
+		Model model = new CreateModel().CreateModel();
 		
-		String jsonStr = JsonUtils.toPrettyString(expandedObj);
-	    Model model = ModelFactory.createDefaultModel();
-	    RDFDataMgr.read(model, new StringReader(jsonStr), "", Lang.JSONLD);
-	    //model.write(System.out, "TURTLE");
 		Queries query = new Queries(model);
+		List<String> countries = QuizSessionGenerator.Session();
+		
+		
 		
 		
         

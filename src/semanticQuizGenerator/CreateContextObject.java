@@ -13,7 +13,7 @@ public class CreateContextObject {
 		contextObj = new LinkedHashMap() {
 			{
 				put("country", "@id");
-				put("capitalIRI", "@id");
+				put("capital", "@id");
 				put("countryLabel", iriBase + "Q6256");
 				put("capital", iriBase + "Q5119");
 				put("continent", iriBase + "Q5107");

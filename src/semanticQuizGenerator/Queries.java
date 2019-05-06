@@ -65,7 +65,7 @@ public class Queries {
 	    QueryExecution queryExecution = QueryExecutionFactory.create(query, model);   
 	    ResultSet resultSet = queryExecution.execSelect();
 		
-	    //resultSet.forEachRemaining(qsol -> System.out.println(qsol.toString()));
+	    resultSet.forEachRemaining(qsol -> System.out.println(qsol.toString()));
 	}
 	
 }
