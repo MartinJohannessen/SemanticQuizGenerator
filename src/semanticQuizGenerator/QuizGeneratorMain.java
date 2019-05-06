@@ -29,7 +29,7 @@ public class QuizGeneratorMain {
 		
 		String jsonStr = JsonUtils.toPrettyString(jsonObj);
 		CreateModel model = new CreateModel(jsonStr);
-		model.rdfsModel.write(System.out, "TURTLE");
-		//Queries country = new Queries(expandedObj);
+		//model.rdfsModel.write(System.out, "TURTLE");
+		Queries query = new Queries(model.rdfsModel);
 	}
 }
