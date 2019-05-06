@@ -1,22 +1,27 @@
 package semanticQuizGenerator;
 
+import java.io.StringReader;
+
 import org.apache.jena.rdf.model.InfModel;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.riot.Lang;
+import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.vocabulary.RDFS;
 
 public class CreateModel {
 	InfModel rdfsModel;
 	String iriBase;
 
-	public CreateModel() {
+	public CreateModel(String jsonStr) {
 		Model rdfModel = ModelFactory.createDefaultModel();
 		this.rdfsModel = ModelFactory.createRDFSModel(rdfModel);
 		this.iriBase = "http://www.wikidata.org/wiki/";
 		addResources();
 		addProperties();
+		RDFDataMgr.read(rdfsModel, new StringReader(jsonStr), "", Lang.JSONLD);
 	}
 
 	public void addResources() {

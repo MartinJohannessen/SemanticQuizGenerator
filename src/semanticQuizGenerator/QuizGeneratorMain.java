@@ -10,7 +10,7 @@ import com.github.jsonldjava.utils.JsonUtils;
 
 public class QuizGeneratorMain {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws JsonGenerationException, IOException {
 
 		String capitalsJSON = JSONParser.readJson("src/data/capitals.json");
 		String countriesJSON = JSONParser.readJson("src/data/countries.json");
@@ -27,13 +27,9 @@ public class QuizGeneratorMain {
 		
 		Object expandedObj = ExpandJSON.ExpandJSON(createContext.contextObj, jsonObj);
 		
-		/*try {
-			System.out.println(JsonUtils.toPrettyString(expandedObj));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}*/
-		
-		Queries country = new Queries(expandedObj);
+		String jsonStr = JsonUtils.toPrettyString(jsonObj);
+		CreateModel model = new CreateModel(jsonStr);
+		model.rdfsModel.write(System.out, "TURTLE");
+		//Queries country = new Queries(expandedObj);
 	}
 }
