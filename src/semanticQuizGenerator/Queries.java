@@ -3,7 +3,11 @@ package semanticQuizGenerator;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
+import org.apache.jena.query.ParameterizedSparqlString;
+import org.apache.jena.query.Query;
+import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.query.QueryFactory;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.InfModel;
 import org.apache.jena.rdf.model.Model;
@@ -19,7 +23,7 @@ public class Queries {
 		//getCountry(object);
 		this.model = model;
 		query("https://www.wikidata.org/wiki/Q811");
-		getContinent("https://www.wikidata.org/wiki/Q811");
+		getContinent("http://www.wikidata.org/entity/Q20");
 	}
 	
 	public static String getCountry(LinkedHashMap object) {
@@ -46,15 +50,22 @@ public class Queries {
 	}
 	
 	public static void getContinent(String entity) {
-		ResultSet resultSet = QueryExecutionFactory
-		        .create(""
-		            + "SELECT ?continent WHERE {"
-		        	+ "		<http://www.wikidata.org/entity/Q20> <https://www.wikidata.org/wiki/Property:P30> ?continent."
-		            + "}", model)
-		        .execSelect();
-
-		    resultSet.forEachRemaining(qsol -> System.out.println(qsol.toString()));
+		String country = entity;
+		ParameterizedSparqlString pss = new ParameterizedSparqlString();
+		pss.setCommandText(""
+	            + "SELECT ?continent WHERE {"
+	        	+ "		?c <https://www.wikidata.org/wiki/Property:P30> ?continent."
+	            + "}");
+		
+		pss.setIri("c", country);
+		
+		
+	    Query query = pss.asQuery();
+	 
+	    QueryExecution queryExecution = QueryExecutionFactory.create(query, model);   
+	    ResultSet resultSet = queryExecution.execSelect();
+		
+	    //resultSet.forEachRemaining(qsol -> System.out.println(qsol.toString()));
 	}
-
 	
 }
