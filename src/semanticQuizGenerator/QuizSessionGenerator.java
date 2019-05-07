@@ -3,6 +3,7 @@ package semanticQuizGenerator;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.ResultSet;
@@ -21,14 +22,30 @@ public class QuizSessionGenerator {
 						+ "}", model)
 				.execSelect();
 
-		ArrayList<String> countries = new ArrayList();
+		ArrayList<String> allCountries = new ArrayList<String>();
+		ArrayList<String> countries = new ArrayList<String>();
 		resultSet.forEachRemaining(qsol -> {
-			countries.add(qsol.toString());
-        	//System.out.println(qsol);
+			allCountries.add(cleanString(qsol.toString()));
         });
 		
-
+		for (int i = 0; i<number; i++) {
+			int random = generateRandomInt(allCountries.size());
+			countries.add(allCountries.get(random));
+			allCountries.remove(random);
+		}
 		return countries;
 	}
+	
+
+	public static int generateRandomInt(int upperRange){
+		Random random = new Random();
+		return random.nextInt(upperRange);
+	}
+	
+	public static String cleanString(String string) {
+    	string = string.replace("( ?c = <", "");
+        string = string.replace("> )", "");
+        return string;
+    }
 
 }
