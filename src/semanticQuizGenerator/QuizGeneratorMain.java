@@ -23,15 +23,14 @@ public class QuizGeneratorMain {
 	public static void main(String[] args) throws JsonGenerationException, IOException {
 
 
+
+		
 		Model model = new CreateModel().CreateModel();
-		
-		Queries query = new Queries(model);
-		List<String> countries = QuizSessionGenerator.Session();
+		List<String> session = QuizSessionGenerator.Session();
 		
 		
 		
-		
-        
-	
+		Hints query = new Hints(model, "http://www.wikidata.org/entity/Q20");
+
 	}
 }

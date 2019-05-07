@@ -17,6 +17,7 @@ import com.github.jsonldjava.utils.JsonUtils;
 
 public class CreateModel {
 
+
 	public Model CreateModel() throws JsonGenerationException, IOException {
 
 		String capitalsJSON = JSONParser.readJson("src/data/capitals.json");
@@ -34,10 +35,12 @@ public class CreateModel {
 		Object expandedObj = ExpandJSON.ExpandJSON(createContext.contextObj, jsonObj);
 
 		String jsonStr = JsonUtils.toPrettyString(expandedObj);
-		Model model = ModelFactory.createDefaultModel();
-		RDFDataMgr.read(model, new StringReader(jsonStr), "", Lang.JSONLD);
-		model.write(System.out, "TURTLE");
+		
+	    Model model = ModelFactory.createDefaultModel();
+	    RDFDataMgr.read(model, new StringReader(jsonStr), "", Lang.JSONLD);
+	    //model.write(System.out, "TURTLE");
 
 		return model;
+
 	}
 }
