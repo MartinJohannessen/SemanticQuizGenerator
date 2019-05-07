@@ -24,13 +24,12 @@ public class QuizGeneratorMain {
 
 
 
-		
+
 		Model model = new CreateModel().CreateModel();
-		List<String> session = QuizSessionGenerator.Session();
-		
-		
-		
-		Hints query = new Hints(model, "http://www.wikidata.org/entity/Q20");
+		List<String> session = QuizSessionGenerator.Session(10);
+
+
+		TerminalQuiz game = new TerminalQuiz("http://www.wikidata.org/entity/Q20");
 
 	}
 }
