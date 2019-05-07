@@ -23,14 +23,21 @@ public class Hints {
         
     }
     
+    public int size() {
+    	return hints.size();
+    }
+    
     public static void addHints() {
     	//query(countryIRI, "https://www.wikidata.org/wiki/Property:P36", "capital");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P1082", "population");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P2044", "altitude of highest point");
     	query(countryIRI, "https://www.wikidata.org/wiki/Property:P30", "continent");
     	query(countryIRI, "https://www.wikidata.org/wiki/Property:P610", "highest point");
-    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P2044", "altitude of highest point");
-    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P1082", "population");
-    	//query(countryIRI, "https://www.wikidata.org/wiki/Property:P2046", "area");
     	query(countryIRI, "https://www.wikidata.org/wiki/Property:P122", "type of government");
+    	
+    	
+    	//query(countryIRI, "https://www.wikidata.org/wiki/Property:P2046", "area");
+    	
     }
    
     public static void query(String entity, String property, String subject) {

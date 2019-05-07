@@ -27,9 +27,6 @@ public class QuizSessionGenerator {
         	//System.out.println(qsol);
         });
 		
-		for(String country : countries) {
-			System.out.println(country);
-		}
 
 		return countries;
 	}
