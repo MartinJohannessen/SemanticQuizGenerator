@@ -8,9 +8,7 @@ import org.apache.jena.query.Query;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.ResultSet;
-import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.RDFNode;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 
@@ -47,7 +45,7 @@ public class TerminalQuiz {
 		Hints hints = new Hints(model, country);
 
 		int points = hints.size();
-		
+
 		System.out.println("Enter 'hint' or |anwer| below. This first hint is free: ");
 		for (String s: hints.hints) {
 			System.out.println("---"+s+"---");
@@ -62,7 +60,7 @@ public class TerminalQuiz {
 			
 			points--;
 		}
-		System.out.println("Correct country:"+countryLabel+" Points: "+points+"\n\n");
+		System.out.println("Correct country: "+countryLabel+" Points: "+points+"\n\n");
 
 	}
 	

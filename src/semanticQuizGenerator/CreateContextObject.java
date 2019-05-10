@@ -44,13 +44,12 @@ public class CreateContextObject {
 				put("government", propertyBase + "P122");
 				put("lifeExpectancy", propertyBase + "P2250");
 				put("locatedNextToWater", propertyBase + "P206");
-				put("headofState", propertyBase + "P35");
+				put("headOfState", propertyBase + "P35");
 				put("sharesBorderWith", propertyBase + "P47");
 				put("waterPercent", propertyBase + "P2927");
 				put("GDP", propertyBase + "P2132");
 				put("income", propertyBase + "P3529");
 				put("inception", propertyBase + "P571");
-
 			}
 		};
 

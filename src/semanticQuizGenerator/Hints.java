@@ -28,13 +28,19 @@ public class Hints {
     }
     
     public static void addHints() {
-    	//query(countryIRI, "https://www.wikidata.org/wiki/Property:P36", "capital");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P36", "capital");
     	query(countryIRI, "https://www.wikidata.org/wiki/Property:P1082", "population");
     	query(countryIRI, "https://www.wikidata.org/wiki/Property:P2044", "altitude of highest point");
     	query(countryIRI, "https://www.wikidata.org/wiki/Property:P30", "continent");
     	query(countryIRI, "https://www.wikidata.org/wiki/Property:P610", "highest point");
     	query(countryIRI, "https://www.wikidata.org/wiki/Property:P122", "type of government");
-    	
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P2250", "life expectancy");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P206", "located next to water");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P35", "head of state");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P47", "shares border with");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P2927", "water percent");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P2132", "GDP");
+    	query(countryIRI, "https://www.wikidata.org/wiki/Property:P3529", "income");
     	
     	//query(countryIRI, "https://www.wikidata.org/wiki/Property:P2046", "area");
     	

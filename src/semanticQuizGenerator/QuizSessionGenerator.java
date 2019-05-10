@@ -19,6 +19,7 @@ public class QuizSessionGenerator {
 				.create(""
 						+ "SELECT DISTINCT ?c  WHERE {"
 						+ "		?c <https://www.wikidata.org/wiki/Property:P17> ?country."
+						+ "		?c <https://www.wikidata.org/wiki/Property:P30> ?continent."
 						+ "}", model)
 				.execSelect();
 
