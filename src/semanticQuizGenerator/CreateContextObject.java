@@ -16,26 +16,10 @@ public class CreateContextObject {
 			{
 				put("countryIRI", "@id");
 				put("capitalIRI", "@id");
-				put("country", iriBase + "Q6256");
-				put("capital", iriBase + "Q5119");
-				put("capitalLabel", iriBase + "Q5119");
-				put("continent", iriBase + "Q5107");
-				put("highestPoint", iriBase + "Q3393392");
-				put("altitude", iriBase + "Q190200");
-				put("population", iriBase + "Q2625603");
-				put("area", iriBase + "Q11500");
-				put("government", iriBase + "Q7188");
-				put("lifeExpectancy", iriBase + "Q188419");
-				put("bodyOfWater", iriBase + "Q15324");
-				put("headOfState", iriBase + "Q48352");
-				put("waterPercent", iriBase + "Water percent");
-				put("GDP", iriBase + "Q12638");
-				put("income", iriBase + "Q1527264");
-				put("inception", iriBase + "Q24574747");
-				put("airport", iriBase + "Q1248784");
 
 				put("country", propertyBase + "P17");
 				put("capital", propertyBase + "P36");
+				put("capitalOf", propertyBase + "P1376");
 				put("continent", propertyBase + "P30");
 				put("highest", propertyBase + "P610");
 				put("altitude", propertyBase + "P2044");
