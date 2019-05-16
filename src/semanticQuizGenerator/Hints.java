@@ -42,6 +42,7 @@ public class Hints {
     	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P2132", "GDP");
     	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P3529", "income");
     	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P36", "capital");
+
     	
     	//query(countryIRI, "https://www.wikidata.org/wiki/Property:P2046", "area");
     	
@@ -97,7 +98,20 @@ public class Hints {
     
     public static String cleanString(String string, String subject) {
     	string = string.replace("( ?s = \"", subject + ": ");
-        string = string.replace("\" )", "");
+    	if (subject.contains("GDP")||(subject.contains("income"))){
+    		string = string.replace(": ",": US$");
+    	}
+    	
+    	if (string.contains("altitude")){
+    		string = string.replace("\" )", " metres");
+    	}
+    	if (string.contains("population")){
+    		string = string.replace("\" )", " people");
+    	}
+    	if (string.contains("life")){
+    		string = string.replace("\" )", " years");
+    	}
+    	string = string.replace("\" )", "");
         return string;
     }
    
