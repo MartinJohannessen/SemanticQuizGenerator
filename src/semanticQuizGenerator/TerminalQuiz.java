@@ -46,7 +46,7 @@ public class TerminalQuiz {
 
 		int points = hints.size();
 
-		System.out.println("Enter 'hint' or |anwer| below. This first hint is free: ");
+		System.out.println("Enter 'hint' or |answer| below. This first hint is free: ");
 		for (String s: hints.hints) {
 			System.out.println("---"+s+"---");
 
