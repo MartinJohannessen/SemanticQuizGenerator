@@ -6,7 +6,7 @@ import java.util.Map;
 import org.apache.jena.vocabulary.RDFS;
 
 public class CreateContextObject {
-	String iriBase = "http://www.wikidata.org/wiki/";
+	String entityBase = "http://www.wikidata.org/wiki/";
 	String propertyBase = "https://www.wikidata.org/wiki/Property:";
 	Map contextObj;
 
@@ -34,6 +34,7 @@ public class CreateContextObject {
 				put("GDP", propertyBase + "P2132");
 				put("income", propertyBase + "P3529");
 				put("inception", propertyBase + "P571");
+				put("airport", entityBase + "Q1248784");
 			}
 		};
 

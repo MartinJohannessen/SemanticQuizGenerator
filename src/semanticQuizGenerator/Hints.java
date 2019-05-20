@@ -13,15 +13,15 @@ import org.apache.jena.rdf.model.Model;
 public class Hints {
 	static Model model;
     static String countryIRI;
+    static String capitalIRI;
     static List<String> hints;
    
     public Hints(Model model, String countryIRI) {
         this.model = model;
         this.countryIRI = countryIRI;
+        this.capitalIRI = getCapitalIRI();
         this.hints = new ArrayList<String>();
         addHints();
-        getCapitalIRI();
-        
     }
     
     public int size() {
@@ -29,7 +29,6 @@ public class Hints {
     }
     
     public static void addHints() {
-    	
     	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P1082", "population");
     	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P2044", "altitude of highest point");
     	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P30", "continent");
@@ -44,57 +43,36 @@ public class Hints {
     	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P3529", "income");
     	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P36", "capital");
 
-    	
+    	countryQuery(capitalIRI, "https://www.wikidata.org/wiki/Property:P1082", "population of the capital");
+    	countryQuery(capitalIRI, "https://www.wikidata.org/wiki/Property:P2044", "altitude of the highest point of the capital");
+    	countryQuery(capitalIRI, "http://www.wikidata.org/wiki/Q1248784", "airport of the capital");
+    	countryQuery(capitalIRI, "https://www.wikidata.org/wiki/Property:P206", "the capital is located next to");
     	//query(countryIRI, "https://www.wikidata.org/wiki/Property:P2046", "area");
     	
     }
     
-    public static void getCapitalIRI() {
-    	
+    public static String getCapitalIRI() {
     	ParameterizedSparqlString pss = new ParameterizedSparqlString();
         pss.setCommandText(""
-                + "SELECT ?s WHERE {"
-                + "     ?e <https://www.wikidata.org/wiki/Property:P1376> ?s."
+        		+ "SELECT ?capital WHERE {"
+				+ "		?capital <https://www.wikidata.org/wiki/Property:P1376> ?c." 
+				+ "		?capital <https://www.wikidata.org/wiki/Property:P36> ?capitalLabel." 
+				+ "		?country <https://www.wikidata.org/wiki/Property:P36> ?capitalLabel."
                 + "}");
        
-        pss.setIri("s", countryIRI);
+        pss.setIri("country", countryIRI);
         Query query = pss.asQuery();
         QueryExecution queryExecution = QueryExecutionFactory.create(query, model);  
         ResultSet resultSet = queryExecution.execSelect();
         resultSet.forEachRemaining(qsol -> {
-        	String capitalIRI = qsol.toString();
-        	//s = cleanString(s, subject); 
-        	System.out.println(capitalIRI);
-        	
+        	capitalIRI = qsol.toString();
+        	capitalIRI = capitalIRI.replace("( ?capital = <", "");
+        	capitalIRI = capitalIRI.replace("> )", "");
         });
-    	//return capitalIRI;
+    	return capitalIRI;
     }
    
     public static void countryQuery(String entity, String property, String subject) {
-        ParameterizedSparqlString pss = new ParameterizedSparqlString();
-        pss.setCommandText(""
-                + "SELECT ?s WHERE {"
-                + "     ?e ?p ?s."
-                + "}");
-       
-        pss.setIri("e", entity);
-        pss.setIri("p", property);
-        Query query = pss.asQuery();
-        QueryExecution queryExecution = QueryExecutionFactory.create(query, model);  
-        ResultSet resultSet = queryExecution.execSelect();
-        
-        resultSet.forEachRemaining(qsol -> {
-        	String s = qsol.toString();
-        	s = cleanString(s, subject);
-        	
-        	
-        	
-        	
-        	hints.add(s);
-        });
-    }
-    
-    public static void capitalQuery(String entity, String property, String subject) {
         ParameterizedSparqlString pss = new ParameterizedSparqlString();
         pss.setCommandText(""
                 + "SELECT ?s WHERE {"
@@ -122,7 +100,7 @@ public class Hints {
     	string = string.replace("( ?s = \"", subject + ": ");
     	string = string.replace("\" )", "");
     	if (subject.contains("GDP") || (subject.contains("income"))){
-    		string = string + "US$";
+    		string = string + " US$";
     	}
     	
     	if (string.contains("altitude")){
