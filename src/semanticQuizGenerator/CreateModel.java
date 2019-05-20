@@ -2,15 +2,10 @@ package semanticQuizGenerator;
 
 import java.io.IOException;
 import java.io.StringReader;
-
-import org.apache.jena.rdf.model.InfModel;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.Property;
-import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.riot.Lang;
 import org.apache.jena.riot.RDFDataMgr;
-import org.apache.jena.vocabulary.RDFS;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.github.jsonldjava.utils.JsonUtils;
@@ -22,6 +17,7 @@ public class CreateModel {
 
 		String capitalsJSON = JSONParser.readJson("src/data/capitals.json");
 		String countriesJSON = JSONParser.readJson("src/data/countries.json");
+		String countriesRankedByAreaJSON = JSONParser.readJson("src/data/countriesRankedByArea.json");
 		String allJSON = countriesJSON.substring(0, countriesJSON.length()-2)+", "+capitalsJSON.substring(1);
 
 		CreateContextObject createContext = new CreateContextObject();

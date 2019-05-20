@@ -1,14 +1,8 @@
 package semanticQuizGenerator;
 
-import java.io.IOException;
-import java.util.LinkedHashMap;
 import java.util.Map;
-
-import org.apache.jena.atlas.json.JsonObject;
-
 import com.github.jsonldjava.core.JsonLdOptions;
 import com.github.jsonldjava.core.JsonLdProcessor;
-import com.github.jsonldjava.utils.JsonUtils;
 
 public class ExpandJSON {
 

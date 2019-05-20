@@ -42,6 +42,7 @@ public class Hints {
     	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P2132", "GDP");
     	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P3529", "income");
     	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P36", "capital");
+    	countryQuery(countryIRI, "rankByArea", "rank by area");
 
     	countryQuery(capitalIRI, "https://www.wikidata.org/wiki/Property:P1082", "population of the capital");
     	countryQuery(capitalIRI, "https://www.wikidata.org/wiki/Property:P2044", "altitude of the highest point of the capital");
