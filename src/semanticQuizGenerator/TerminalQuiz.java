@@ -19,7 +19,7 @@ public class TerminalQuiz {
 	
 
 
-	 TerminalQuiz(String countryIRI) throws JsonGenerationException, IOException {
+	 public TerminalQuiz(String countryIRI) throws JsonGenerationException, IOException {
 		this.country = countryIRI;
 		Model model = new CreateModel().CreateModel();
 		ParameterizedSparqlString pss = new ParameterizedSparqlString();

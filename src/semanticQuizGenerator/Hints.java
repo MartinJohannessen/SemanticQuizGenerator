@@ -20,6 +20,7 @@ public class Hints {
         this.countryIRI = countryIRI;
         this.hints = new ArrayList<String>();
         addHints();
+        getCapitalIRI();
         
     }
     
@@ -46,6 +47,27 @@ public class Hints {
     	
     	//query(countryIRI, "https://www.wikidata.org/wiki/Property:P2046", "area");
     	
+    }
+    
+    public static void getCapitalIRI() {
+    	
+    	ParameterizedSparqlString pss = new ParameterizedSparqlString();
+        pss.setCommandText(""
+                + "SELECT ?s WHERE {"
+                + "     ?e <https://www.wikidata.org/wiki/Property:P1376> ?s."
+                + "}");
+       
+        pss.setIri("s", countryIRI);
+        Query query = pss.asQuery();
+        QueryExecution queryExecution = QueryExecutionFactory.create(query, model);  
+        ResultSet resultSet = queryExecution.execSelect();
+        resultSet.forEachRemaining(qsol -> {
+        	String capitalIRI = qsol.toString();
+        	//s = cleanString(s, subject); 
+        	System.out.println(capitalIRI);
+        	
+        });
+    	//return capitalIRI;
     }
    
     public static void countryQuery(String entity, String property, String subject) {
@@ -98,20 +120,20 @@ public class Hints {
     
     public static String cleanString(String string, String subject) {
     	string = string.replace("( ?s = \"", subject + ": ");
-    	if (subject.contains("GDP")||(subject.contains("income"))){
-    		string = string.replace(": ",": US$");
+    	string = string.replace("\" )", "");
+    	if (subject.contains("GDP") || (subject.contains("income"))){
+    		string = string + "US$";
     	}
     	
     	if (string.contains("altitude")){
-    		string = string.replace("\" )", " metres");
+    		string = string + " metres";
     	}
     	if (string.contains("population")){
-    		string = string.replace("\" )", " people");
+    		string = string + " people";
     	}
     	if (string.contains("life")){
-    		string = string.replace("\" )", " years");
+    		string = string + " years";
     	}
-    	string = string.replace("\" )", "");
         return string;
     }
    
