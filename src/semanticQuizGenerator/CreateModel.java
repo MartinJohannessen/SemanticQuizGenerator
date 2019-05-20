@@ -34,7 +34,7 @@ public class CreateModel {
 		
 	    Model model = ModelFactory.createDefaultModel();
 	    RDFDataMgr.read(model, new StringReader(jsonStr), "", Lang.JSONLD);
-	    //model.write(System.out, "TURTLE");
+	    model.write(System.out, "TURTLE");
 
 		return model;
 

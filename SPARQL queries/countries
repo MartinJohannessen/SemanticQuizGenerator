@@ -1,4 +1,4 @@
-SELECT DISTINCT ?country ?countryLabel ?capitalLabe ?continentLabel ?oceanLabel ?highestLabel ?altitudeLabel
+SELECT DISTINCT ?country ?countryLabel ?capitalLabel ?continentLabel ?oceanLabel ?highestLabel ?altitudeLabel
 ?populationLabel ?lifeExpectancyLabel ?areaLabel ?governmentLabel ?headOfStateLabel ?sharesBoarderWithLabel
 ?waterPercentLabel ?GDPLabel ?incomeLabel WHERE {
   ?country wdt:P31 wd:Q6256.

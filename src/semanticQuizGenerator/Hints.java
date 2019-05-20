@@ -20,8 +20,9 @@ public class Hints {
         this.model = model;
         this.countryIRI = countryIRI;
         this.capitalIRI = getCapitalIRI();
+        System.out.println(capitalIRI);
         this.hints = new ArrayList<String>();
-        addHints();
+        //addHints();
     }
     
     public int size() {
