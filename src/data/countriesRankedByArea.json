@@ -1,802 +1,802 @@
 [
   {
-    "country": "https://www.wikidata.org/wiki/Q159",
-    "countryLabel": "Russia",
-    "rankedByArea": 1
+    "countryIRI": "https://www.wikidata.org/wiki/Q159",
+    "country": "Russia",
+    "rankByArea": 1
   },
   {
-    "country": "http://www.wikidata.org/entity/Q16",
-    "countryLabel": "Canada",
-    "rankedByArea": 2
+    "countryIRI": "http://www.wikidata.org/entity/Q16",
+    "country": "Canada",
+    "rankByArea": 2
   },
   {
-    "country": "http://www.wikidata.org/entity/Q30",
-    "countryLabel": "United States of America",
-    "rankedByArea": 3
+    "countryIRI": "http://www.wikidata.org/entity/Q30",
+    "country": "United States of America",
+    "rankByArea": 3
   },
   {
-    "country": "http://www.wikidata.org/entity/Q148",
-    "countryLabel": "People's Republic of China",
-    "rankedByArea": 4
+    "countryIRI": "http://www.wikidata.org/entity/Q148",
+    "country": "People's Republic of China",
+    "rankByArea": 4
   },
   {
-    "country": "http://www.wikidata.org/entity/Q155",
-    "countryLabel": "Brazil",
-    "rankedByArea": 5
+    "countryIRI": "http://www.wikidata.org/entity/Q155",
+    "country": "Brazil",
+    "rankByArea": 5
   },
   {
-    "country": "http://www.wikidata.org/entity/Q408",
-    "countryLabel": "Australia",
-    "rankedByArea": 6
+    "countryIRI": "http://www.wikidata.org/entity/Q408",
+    "country": "Australia",
+    "rankByArea": 6
   },
   {
-    "country": "http://www.wikidata.org/entity/Q668",
-    "countryLabel": "India",
-    "rankedByArea": 7
+    "countryIRI": "http://www.wikidata.org/entity/Q668",
+    "country": "India",
+    "rankByArea": 7
   },
   {
-    "country": "http://www.wikidata.org/entity/Q414",
-    "countryLabel": "Argentina",
-    "rankedByArea": 8
+    "countryIRI": "http://www.wikidata.org/entity/Q414",
+    "country": "Argentina",
+    "rankByArea": 8
   },
   {
-    "country": "http://www.wikidata.org/entity/Q232",
-    "countryLabel": "Kazakhstan",
-    "rankedByArea": 9
+    "countryIRI": "http://www.wikidata.org/entity/Q232",
+    "country": "Kazakhstan",
+    "rankByArea": 9
   },
   {
-    "country": "http://www.wikidata.org/entity/Q262",
-    "countryLabel": "Algeria",
-    "rankedByArea": 10
+    "countryIRI": "http://www.wikidata.org/entity/Q262",
+    "country": "Algeria",
+    "rankByArea": 10
   },
   {
-    "country": "http://www.wikidata.org/entity/Q974",
-    "countryLabel": "Democratic Republic of the Congo",
-    "rankedByArea": 11
+    "countryIRI": "http://www.wikidata.org/entity/Q974",
+    "country": "Democratic Republic of the Congo",
+    "rankByArea": 11
   },
   {
-    "country": "http://www.wikidata.org/entity/Q851",
-    "countryLabel": "Saudi Arabia",
-    "rankedByArea": 12
+    "countryIRI": "http://www.wikidata.org/entity/Q851",
+    "country": "Saudi Arabia",
+    "rankByArea": 12
   },
   {
-    "country": "http://www.wikidata.org/entity/Q96",
-    "countryLabel": "Mexico",
-    "rankedByArea": 13
+    "countryIRI": "http://www.wikidata.org/entity/Q96",
+    "country": "Mexico",
+    "rankByArea": 13
   },
   {
-    "country": "http://www.wikidata.org/entity/Q252",
-    "countryLabel": "Indonesia",
-    "rankedByArea": 14
+    "countryIRI": "http://www.wikidata.org/entity/Q252",
+    "country": "Indonesia",
+    "rankByArea": 14
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1049",
-    "countryLabel": "Sudan",
-    "rankedByArea": 15
+    "countryIRI": "http://www.wikidata.org/entity/Q1049",
+    "country": "Sudan",
+    "rankByArea": 15
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1016",
-    "countryLabel": "Libya",
-    "rankedByArea": 16
+    "countryIRI": "http://www.wikidata.org/entity/Q1016",
+    "country": "Libya",
+    "rankByArea": 16
   },
   {
-    "country": "http://www.wikidata.org/entity/Q794",
-    "countryLabel": "Iran",
-    "rankedByArea": 17
+    "countryIRI": "http://www.wikidata.org/entity/Q794",
+    "country": "Iran",
+    "rankByArea": 17
   },
   {
-    "country": "http://www.wikidata.org/entity/Q711",
-    "countryLabel": "Mongolia",
-    "rankedByArea": 18
+    "countryIRI": "http://www.wikidata.org/entity/Q711",
+    "country": "Mongolia",
+    "rankByArea": 18
   },
   {
-    "country": "http://www.wikidata.org/entity/Q419",
-    "countryLabel": "Peru",
-    "rankedByArea": 19
+    "countryIRI": "http://www.wikidata.org/entity/Q419",
+    "country": "Peru",
+    "rankByArea": 19
   },
   {
-    "country": "http://www.wikidata.org/entity/Q657",
-    "countryLabel": "Chad",
-    "rankedByArea": 20
+    "countryIRI": "http://www.wikidata.org/entity/Q657",
+    "country": "Chad",
+    "rankByArea": 20
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1032",
-    "countryLabel": "Niger",
-    "rankedByArea": 21
+    "countryIRI": "http://www.wikidata.org/entity/Q1032",
+    "country": "Niger",
+    "rankByArea": 21
   },
   {
-    "country": "http://www.wikidata.org/entity/Q916",
-    "countryLabel": "Angola",
-    "rankedByArea": 22
+    "countryIRI": "http://www.wikidata.org/entity/Q916",
+    "country": "Angola",
+    "rankByArea": 22
   },
   {
-    "country": "http://www.wikidata.org/entity/Q912",
-    "countryLabel": "Mali",
-    "rankedByArea": 23
+    "countryIRI": "http://www.wikidata.org/entity/Q912",
+    "country": "Mali",
+    "rankByArea": 23
   },
   {
-    "country": "http://www.wikidata.org/entity/Q258",
-    "countryLabel": "South Africa",
-    "rankedByArea": 24
+    "countryIRI": "http://www.wikidata.org/entity/Q258",
+    "country": "South Africa",
+    "rankByArea": 24
   },
   {
-    "country": "http://www.wikidata.org/entity/Q739",
-    "countryLabel": "Colombia",
-    "rankedByArea": 25
+    "countryIRI": "http://www.wikidata.org/entity/Q739",
+    "country": "Colombia",
+    "rankByArea": 25
   },
   {
-    "country": "http://www.wikidata.org/entity/Q115",
-    "countryLabel": "Ethiopia",
-    "rankedByArea": 26
+    "countryIRI": "http://www.wikidata.org/entity/Q115",
+    "country": "Ethiopia",
+    "rankByArea": 26
   },
   {
-    "country": "http://www.wikidata.org/entity/Q750",
-    "countryLabel": "Bolivia",
-    "rankedByArea": 27
+    "countryIRI": "http://www.wikidata.org/entity/Q750",
+    "country": "Bolivia",
+    "rankByArea": 27
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1025",
-    "countryLabel": "Mauritania",
-    "rankedByArea": 28
+    "countryIRI": "http://www.wikidata.org/entity/Q1025",
+    "country": "Mauritania",
+    "rankByArea": 28
   },
   {
-    "country": "http://www.wikidata.org/entity/Q79",
-    "countryLabel": "Egypt",
-    "rankedByArea": 29
+    "countryIRI": "http://www.wikidata.org/entity/Q79",
+    "country": "Egypt",
+    "rankByArea": 29
   },
   {
-    "country": "http://www.wikidata.org/entity/Q924",
-    "countryLabel": "Tanzania",
-    "rankedByArea": 30
+    "countryIRI": "http://www.wikidata.org/entity/Q924",
+    "country": "Tanzania",
+    "rankByArea": 30
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1033",
-    "countryLabel": "Nigeria",
-    "rankedByArea": 31
+    "countryIRI": "http://www.wikidata.org/entity/Q1033",
+    "country": "Nigeria",
+    "rankByArea": 31
   },
   {
-    "country": "http://www.wikidata.org/entity/Q717",
-    "countryLabel": "Venezuela",
-    "rankedByArea": 32
+    "countryIRI": "http://www.wikidata.org/entity/Q717",
+    "country": "Venezuela",
+    "rankByArea": 32
   },
   {
-    "country": "http://www.wikidata.org/entity/Q843",
-    "countryLabel": "Pakistan",
-    "rankedByArea": 33
+    "countryIRI": "http://www.wikidata.org/entity/Q843",
+    "country": "Pakistan",
+    "rankByArea": 33
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1030",
-    "countryLabel": "Namibia",
-    "rankedByArea": 34
+    "countryIRI": "http://www.wikidata.org/entity/Q1030",
+    "country": "Namibia",
+    "rankByArea": 34
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1029",
-    "countryLabel": "Mozambique",
-    "rankedByArea": 35
+    "countryIRI": "http://www.wikidata.org/entity/Q1029",
+    "country": "Mozambique",
+    "rankByArea": 35
   },
   {
-    "country": "http://www.wikidata.org/entity/Q43",
-    "countryLabel": "Turkey",
-    "rankedByArea": 36
+    "countryIRI": "http://www.wikidata.org/entity/Q43",
+    "country": "Turkey",
+    "rankByArea": 36
   },
   {
-    "country": "http://www.wikidata.org/entity/Q298",
-    "countryLabel": "Chile",
-    "rankedByArea": 37
+    "countryIRI": "http://www.wikidata.org/entity/Q298",
+    "country": "Chile",
+    "rankByArea": 37
   },
   {
-    "country": "http://www.wikidata.org/entity/Q953",
-    "countryLabel": "Zambia",
-    "rankedByArea": 38
+    "countryIRI": "http://www.wikidata.org/entity/Q953",
+    "country": "Zambia",
+    "rankByArea": 38
   },
   {
-    "country": "http://www.wikidata.org/entity/Q836",
-    "countryLabel": "Myanmar",
-    "rankedByArea": 39
+    "countryIRI": "http://www.wikidata.org/entity/Q836",
+    "country": "Myanmar",
+    "rankByArea": 39
   },
   {
-    "country": "http://www.wikidata.org/entity/Q889",
-    "countryLabel": "Afghanistan",
-    "rankedByArea": 40
+    "countryIRI": "http://www.wikidata.org/entity/Q889",
+    "country": "Afghanistan",
+    "rankByArea": 40
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1045",
-    "countryLabel": "Somalia",
-    "rankedByArea": 41
+    "countryIRI": "http://www.wikidata.org/entity/Q1045",
+    "country": "Somalia",
+    "rankByArea": 41
   },
   {
-    "country": "http://www.wikidata.org/entity/Q929",
-    "countryLabel": "Central African Republic",
-    "rankedByArea": 42
+    "countryIRI": "http://www.wikidata.org/entity/Q929",
+    "country": "Central African Republic",
+    "rankByArea": 42
   },
   {
-    "country": "http://www.wikidata.org/entity/Q958",
-    "countryLabel": "South Sudan",
-    "rankedByArea": 43
+    "countryIRI": "http://www.wikidata.org/entity/Q958",
+    "country": "South Sudan",
+    "rankByArea": 43
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1019",
-    "countryLabel": "Madagascar",
-    "rankedByArea": 44
+    "countryIRI": "http://www.wikidata.org/entity/Q1019",
+    "country": "Madagascar",
+    "rankByArea": 44
   },
   {
-    "country": "http://www.wikidata.org/entity/Q963",
-    "countryLabel": "Botswana",
-    "rankedByArea": 45
+    "countryIRI": "http://www.wikidata.org/entity/Q963",
+    "country": "Botswana",
+    "rankByArea": 45
   },
   {
-    "country": "http://www.wikidata.org/entity/Q114",
-    "countryLabel": "Kenya",
-    "rankedByArea": 46
+    "countryIRI": "http://www.wikidata.org/entity/Q114",
+    "country": "Kenya",
+    "rankByArea": 46
   },
   {
-    "country": "http://www.wikidata.org/entity/Q805",
-    "countryLabel": "Yemen",
-    "rankedByArea": 47
+    "countryIRI": "http://www.wikidata.org/entity/Q805",
+    "country": "Yemen",
+    "rankByArea": 47
   },
   {
-    "country": "http://www.wikidata.org/entity/Q869",
-    "countryLabel": "Thailand",
-    "rankedByArea": 48
+    "countryIRI": "http://www.wikidata.org/entity/Q869",
+    "country": "Thailand",
+    "rankByArea": 48
   },
   {
-    "country": "http://www.wikidata.org/entity/Q874",
-    "countryLabel": "Turkmenistan",
-    "rankedByArea": 49
+    "countryIRI": "http://www.wikidata.org/entity/Q874",
+    "country": "Turkmenistan",
+    "rankByArea": 49
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1009",
-    "countryLabel": "Cameroon",
-    "rankedByArea": 50
+    "countryIRI": "http://www.wikidata.org/entity/Q1009",
+    "country": "Cameroon",
+    "rankByArea": 50
   },
   {
-    "country": "http://www.wikidata.org/entity/Q691",
-    "countryLabel": "Papua New Guinea",
-    "rankedByArea": 51
+    "countryIRI": "http://www.wikidata.org/entity/Q691",
+    "country": "Papua New Guinea",
+    "rankByArea": 51
   },
   {
-    "country": "http://www.wikidata.org/entity/Q265",
-    "countryLabel": "Uzbekistan",
-    "rankedByArea": 52
+    "countryIRI": "http://www.wikidata.org/entity/Q265",
+    "country": "Uzbekistan",
+    "rankByArea": 52
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1028",
-    "countryLabel": "Morocco",
-    "rankedByArea": 53
+    "countryIRI": "http://www.wikidata.org/entity/Q1028",
+    "country": "Morocco",
+    "rankByArea": 53
   },
   {
-    "country": "http://www.wikidata.org/entity/Q796",
-    "countryLabel": "Iraq",
-    "rankedByArea": 54
+    "countryIRI": "http://www.wikidata.org/entity/Q796",
+    "country": "Iraq",
+    "rankByArea": 54
   },
   {
-    "country": "http://www.wikidata.org/entity/Q733",
-    "countryLabel": "Paraguay",
-    "rankedByArea": 55
+    "countryIRI": "http://www.wikidata.org/entity/Q733",
+    "country": "Paraguay",
+    "rankByArea": 55
   },
   {
-    "country": "http://www.wikidata.org/entity/Q954",
-    "countryLabel": "Zimbabwe",
-    "rankedByArea": 56
+    "countryIRI": "http://www.wikidata.org/entity/Q954",
+    "country": "Zimbabwe",
+    "rankByArea": 56
   },
   {
-    "country": "http://www.wikidata.org/entity/Q20",
-    "countryLabel": "Norway",
-    "rankedByArea": 57
+    "countryIRI": "http://www.wikidata.org/entity/Q20",
+    "country": "Norway",
+    "rankByArea": 57
   },
   {
-    "country": "http://www.wikidata.org/entity/Q17",
-    "countryLabel": "Japan",
-    "rankedByArea": 58
+    "countryIRI": "http://www.wikidata.org/entity/Q17",
+    "country": "Japan",
+    "rankByArea": 58
   },
   {
-    "country": "http://www.wikidata.org/entity/Q928",
-    "countryLabel": "Philippines",
-    "rankedByArea": 59
+    "countryIRI": "http://www.wikidata.org/entity/Q928",
+    "country": "Philippines",
+    "rankByArea": 59
   },
   {
-    "country": "http://www.wikidata.org/entity/Q971",
-    "countryLabel": "Republic of the Congo",
-    "rankedByArea": 60
+    "countryIRI": "http://www.wikidata.org/entity/Q971",
+    "country": "Republic of the Congo",
+    "rankByArea": 60
   },
   {
-    "country": "http://www.wikidata.org/entity/Q881",
-    "countryLabel": "Vietnam",
-    "rankedByArea": 61
+    "countryIRI": "http://www.wikidata.org/entity/Q881",
+    "country": "Vietnam",
+    "rankByArea": 61
   },
   {
-    "country": "http://www.wikidata.org/entity/Q833",
-    "countryLabel": "Malaysia",
-    "rankedByArea": 62
+    "countryIRI": "http://www.wikidata.org/entity/Q833",
+    "country": "Malaysia",
+    "rankByArea": 62
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1008",
-    "countryLabel": "Ivory Coast",
-    "rankedByArea": 63
+    "countryIRI": "http://www.wikidata.org/entity/Q1008",
+    "country": "Ivory Coast",
+    "rankByArea": 63
   },
   {
-    "country": "http://www.wikidata.org/entity/Q842",
-    "countryLabel": "Oman",
-    "rankedByArea": 64
+    "countryIRI": "http://www.wikidata.org/entity/Q842",
+    "country": "Oman",
+    "rankByArea": 64
   },
   {
-    "country": "http://www.wikidata.org/entity/Q736",
-    "countryLabel": "Ecuador",
-    "rankedByArea": 65
+    "countryIRI": "http://www.wikidata.org/entity/Q736",
+    "country": "Ecuador",
+    "rankByArea": 65
   },
   {
-    "country": "http://www.wikidata.org/entity/Q664",
-    "countryLabel": "New Zealand",
-    "rankedByArea": 66
+    "countryIRI": "http://www.wikidata.org/entity/Q664",
+    "country": "New Zealand",
+    "rankByArea": 66
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1000",
-    "countryLabel": "Gabon",
-    "rankedByArea": 67
+    "countryIRI": "http://www.wikidata.org/entity/Q1000",
+    "country": "Gabon",
+    "rankByArea": 67
   },
   {
-    "country": "http://www.wikidata.org/entity/Q40362",
-    "countryLabel": "Sahrawi Arab Democratic Republic",
-    "rankedByArea": 68
+    "countryIRI": "http://www.wikidata.org/entity/Q40362",
+    "country": "Sahrawi Arab Democratic Republic",
+    "rankByArea": 68
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1006",
-    "countryLabel": "Guinea",
-    "rankedByArea": 69
+    "countryIRI": "http://www.wikidata.org/entity/Q1006",
+    "country": "Guinea",
+    "rankByArea": 69
   },
   {
-    "country": "http://www.wikidata.org/entity/Q145",
-    "countryLabel": "United Kingdom",
-    "rankedByArea": 70
+    "countryIRI": "http://www.wikidata.org/entity/Q145",
+    "country": "United Kingdom",
+    "rankByArea": 70
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1036",
-    "countryLabel": "Uganda",
-    "rankedByArea": 71
+    "countryIRI": "http://www.wikidata.org/entity/Q1036",
+    "country": "Uganda",
+    "rankByArea": 71
   },
   {
-    "country": "http://www.wikidata.org/entity/Q117",
-    "countryLabel": "Ghana",
-    "rankedByArea": 72
+    "countryIRI": "http://www.wikidata.org/entity/Q117",
+    "country": "Ghana",
+    "rankByArea": 72
   },
   {
-    "country": "http://www.wikidata.org/entity/Q218",
-    "countryLabel": "Romania",
-    "rankedByArea": 73
+    "countryIRI": "http://www.wikidata.org/entity/Q218",
+    "country": "Romania",
+    "rankByArea": 73
   },
   {
-    "country": "http://www.wikidata.org/entity/Q819",
-    "countryLabel": "Laos",
-    "rankedByArea": 74
+    "countryIRI": "http://www.wikidata.org/entity/Q819",
+    "country": "Laos",
+    "rankByArea": 74
   },
   {
-    "country": "http://www.wikidata.org/entity/Q734",
-    "countryLabel": "Guyana",
-    "rankedByArea": 75
+    "countryIRI": "http://www.wikidata.org/entity/Q734",
+    "country": "Guyana",
+    "rankByArea": 75
   },
   {
-    "country": "http://www.wikidata.org/entity/Q813",
-    "countryLabel": "Kyrgyzstan",
-    "rankedByArea": 76
+    "countryIRI": "http://www.wikidata.org/entity/Q813",
+    "country": "Kyrgyzstan",
+    "rankByArea": 76
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1041",
-    "countryLabel": "Senegal",
-    "rankedByArea": 77
+    "countryIRI": "http://www.wikidata.org/entity/Q1041",
+    "country": "Senegal",
+    "rankByArea": 77
   },
   {
-    "country": "http://www.wikidata.org/entity/Q858",
-    "countryLabel": "Syria",
-    "rankedByArea": 78
+    "countryIRI": "http://www.wikidata.org/entity/Q858",
+    "country": "Syria",
+    "rankByArea": 78
   },
   {
-    "country": "http://www.wikidata.org/entity/Q424",
-    "countryLabel": "Cambodia",
-    "rankedByArea": 79
+    "countryIRI": "http://www.wikidata.org/entity/Q424",
+    "country": "Cambodia",
+    "rankByArea": 79
   },
   {
-    "country": "http://www.wikidata.org/entity/Q77",
-    "countryLabel": "Uruguay",
-    "rankedByArea": 80
+    "countryIRI": "http://www.wikidata.org/entity/Q77",
+    "country": "Uruguay",
+    "rankByArea": 80
   },
   {
-    "country": "http://www.wikidata.org/entity/Q948",
-    "countryLabel": "Tunisia",
-    "rankedByArea": 81
+    "countryIRI": "http://www.wikidata.org/entity/Q948",
+    "country": "Tunisia",
+    "rankByArea": 81
   },
   {
-    "country": "http://www.wikidata.org/entity/Q902",
-    "countryLabel": "Bangladesh",
-    "rankedByArea": 82
+    "countryIRI": "http://www.wikidata.org/entity/Q902",
+    "country": "Bangladesh",
+    "rankByArea": 82
   },
   {
-    "country": "http://www.wikidata.org/entity/Q837",
-    "countryLabel": "Nepal",
-    "rankedByArea": 83
+    "countryIRI": "http://www.wikidata.org/entity/Q837",
+    "country": "Nepal",
+    "rankByArea": 83
   },
   {
-    "country": "http://www.wikidata.org/entity/Q863",
-    "countryLabel": "Tajikistan",
-    "rankedByArea": 84
+    "countryIRI": "http://www.wikidata.org/entity/Q863",
+    "country": "Tajikistan",
+    "rankByArea": 84
   },
   {
-    "country": "http://www.wikidata.org/entity/Q811",
-    "countryLabel": "Nicaragua",
-    "rankedByArea": 85
+    "countryIRI": "http://www.wikidata.org/entity/Q811",
+    "country": "Nicaragua",
+    "rankByArea": 85
   },
   {
-    "country": "http://www.wikidata.org/entity/Q423",
-    "countryLabel": "North Korea",
-    "rankedByArea": 86
+    "countryIRI": "http://www.wikidata.org/entity/Q423",
+    "country": "North Korea",
+    "rankByArea": 86
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1020",
-    "countryLabel": "Malawi",
-    "rankedByArea": 87
+    "countryIRI": "http://www.wikidata.org/entity/Q1020",
+    "country": "Malawi",
+    "rankByArea": 87
   },
   {
-    "country": "http://www.wikidata.org/entity/Q986",
-    "countryLabel": "Eritrea",
-    "rankedByArea": 88
+    "countryIRI": "http://www.wikidata.org/entity/Q986",
+    "country": "Eritrea",
+    "rankByArea": 88
   },
   {
-    "country": "http://www.wikidata.org/entity/Q962",
-    "countryLabel": "Benin",
-    "rankedByArea": 89
+    "countryIRI": "http://www.wikidata.org/entity/Q962",
+    "country": "Benin",
+    "rankByArea": 89
   },
   {
-    "country": "http://www.wikidata.org/entity/Q783",
-    "countryLabel": "Honduras",
-    "rankedByArea": 90
+    "countryIRI": "http://www.wikidata.org/entity/Q783",
+    "country": "Honduras",
+    "rankByArea": 90
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1014",
-    "countryLabel": "Liberia",
-    "rankedByArea": 91
+    "countryIRI": "http://www.wikidata.org/entity/Q1014",
+    "country": "Liberia",
+    "rankByArea": 91
   },
   {
-    "country": "http://www.wikidata.org/entity/Q219",
-    "countryLabel": "Bulgaria",
-    "rankedByArea": 92
+    "countryIRI": "http://www.wikidata.org/entity/Q219",
+    "country": "Bulgaria",
+    "rankByArea": 92
   },
   {
-    "country": "http://www.wikidata.org/entity/Q774",
-    "countryLabel": "Guatemala",
-    "rankedByArea": 93
+    "countryIRI": "http://www.wikidata.org/entity/Q774",
+    "country": "Guatemala",
+    "rankByArea": 93
   },
   {
-    "country": "http://www.wikidata.org/entity/Q884",
-    "countryLabel": "South Korea",
-    "rankedByArea": 94
+    "countryIRI": "http://www.wikidata.org/entity/Q884",
+    "country": "South Korea",
+    "rankByArea": 94
   },
   {
-    "country": "http://www.wikidata.org/entity/Q45",
-    "countryLabel": "Portugal",
-    "rankedByArea": 95
+    "countryIRI": "http://www.wikidata.org/entity/Q45",
+    "country": "Portugal",
+    "rankByArea": 95
   },
   {
-    "country": "http://www.wikidata.org/entity/Q810",
-    "countryLabel": "Jordan",
-    "rankedByArea": 96
+    "countryIRI": "http://www.wikidata.org/entity/Q810",
+    "country": "Jordan",
+    "rankByArea": 96
   },
   {
-    "country": "http://www.wikidata.org/entity/Q878",
-    "countryLabel": "United Arab Emirates",
-    "rankedByArea": 97
+    "countryIRI": "http://www.wikidata.org/entity/Q878",
+    "country": "United Arab Emirates",
+    "rankByArea": 97
   },
   {
-    "country": "http://www.wikidata.org/entity/Q213",
-    "countryLabel": "Czech Republic",
-    "rankedByArea": 98
+    "countryIRI": "http://www.wikidata.org/entity/Q213",
+    "country": "Czech Republic",
+    "rankByArea": 98
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1044",
-    "countryLabel": "Sierra Leone",
-    "rankedByArea": 99
+    "countryIRI": "http://www.wikidata.org/entity/Q1044",
+    "country": "Sierra Leone",
+    "rankByArea": 99
   },
   {
-    "country": "http://www.wikidata.org/entity/Q854",
-    "countryLabel": "Sri Lanka",
-    "rankedByArea": 100
+    "countryIRI": "http://www.wikidata.org/entity/Q854",
+    "country": "Sri Lanka",
+    "rankByArea": 100
   },
   {
-    "country": "http://www.wikidata.org/entity/Q211",
-    "countryLabel": "Latvia",
-    "rankedByArea": 101
+    "countryIRI": "http://www.wikidata.org/entity/Q211",
+    "country": "Latvia",
+    "rankByArea": 101
   },
   {
-    "country": "http://www.wikidata.org/entity/Q945",
-    "countryLabel": "Togo",
-    "rankedByArea": 102
+    "countryIRI": "http://www.wikidata.org/entity/Q945",
+    "country": "Togo",
+    "rankByArea": 102
   },
   {
-    "country": "http://www.wikidata.org/entity/Q224",
-    "countryLabel": "Croatia",
-    "rankedByArea": 103
+    "countryIRI": "http://www.wikidata.org/entity/Q224",
+    "country": "Croatia",
+    "rankByArea": 103
   },
   {
-    "country": "http://www.wikidata.org/entity/Q800",
-    "countryLabel": "Costa Rica",
-    "rankedByArea": 104
+    "countryIRI": "http://www.wikidata.org/entity/Q800",
+    "country": "Costa Rica",
+    "rankByArea": 104
   },
   {
-    "country": "http://www.wikidata.org/entity/Q214",
-    "countryLabel": "Slovakia",
-    "rankedByArea": 105
+    "countryIRI": "http://www.wikidata.org/entity/Q214",
+    "country": "Slovakia",
+    "rankByArea": 105
   },
   {
-    "country": "http://www.wikidata.org/entity/Q786",
-    "countryLabel": "Dominican Republic",
-    "rankedByArea": 106
+    "countryIRI": "http://www.wikidata.org/entity/Q786",
+    "country": "Dominican Republic",
+    "rankByArea": 106
   },
   {
-    "country": "http://www.wikidata.org/entity/Q35",
-    "countryLabel": "Denmark",
-    "rankedByArea": 107
+    "countryIRI": "http://www.wikidata.org/entity/Q35",
+    "country": "Denmark",
+    "rankByArea": 107
   },
   {
-    "country": "http://www.wikidata.org/entity/Q55",
-    "countryLabel": "Netherlands",
-    "rankedByArea": 108
+    "countryIRI": "http://www.wikidata.org/entity/Q55",
+    "country": "Netherlands",
+    "rankByArea": 108
   },
   {
-    "country": "http://www.wikidata.org/entity/Q39",
-    "countryLabel": "Switzerland",
-    "rankedByArea": 109
+    "countryIRI": "http://www.wikidata.org/entity/Q39",
+    "country": "Switzerland",
+    "rankByArea": 109
   },
   {
-    "country": "http://www.wikidata.org/entity/Q917",
-    "countryLabel": "Bhutan",
-    "rankedByArea": 110
+    "countryIRI": "http://www.wikidata.org/entity/Q917",
+    "country": "Bhutan",
+    "rankByArea": 110
   },
   {
-    "country": "http://www.wikidata.org/entity/Q865",
-    "countryLabel": "Taiwan",
-    "rankedByArea": 111
+    "countryIRI": "http://www.wikidata.org/entity/Q865",
+    "country": "Taiwan",
+    "rankByArea": 111
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1007",
-    "countryLabel": "Guinea-Bissau",
-    "rankedByArea": 112
+    "countryIRI": "http://www.wikidata.org/entity/Q1007",
+    "country": "Guinea-Bissau",
+    "rankByArea": 112
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1013",
-    "countryLabel": "Lesotho",
-    "rankedByArea": 113
+    "countryIRI": "http://www.wikidata.org/entity/Q1013",
+    "country": "Lesotho",
+    "rankByArea": 113
   },
   {
-    "country": "http://www.wikidata.org/entity/Q685",
-    "countryLabel": "Solomon Islands",
-    "rankedByArea": 114
+    "countryIRI": "http://www.wikidata.org/entity/Q685",
+    "country": "Solomon Islands",
+    "rankByArea": 114
   },
   {
-    "country": "http://www.wikidata.org/entity/Q967",
-    "countryLabel": "Burundi",
-    "rankedByArea": 115
+    "countryIRI": "http://www.wikidata.org/entity/Q967",
+    "country": "Burundi",
+    "rankByArea": 115
   },
   {
-    "country": "http://www.wikidata.org/entity/Q790",
-    "countryLabel": "Haiti",
-    "rankedByArea": 116
+    "countryIRI": "http://www.wikidata.org/entity/Q790",
+    "country": "Haiti",
+    "rankByArea": 116
   },
   {
-    "country": "http://www.wikidata.org/entity/Q219060",
-    "countryLabel": "State of Palestine",
-    "rankedByArea": 117
+    "countryIRI": "http://www.wikidata.org/entity/Q219060",
+    "country": "State of Palestine",
+    "rankByArea": 117
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1037",
-    "countryLabel": "Rwanda",
-    "rankedByArea": 118
+    "countryIRI": "http://www.wikidata.org/entity/Q1037",
+    "country": "Rwanda",
+    "rankByArea": 118
   },
   {
-    "country": "http://www.wikidata.org/entity/Q977",
-    "countryLabel": "Djibouti",
-    "rankedByArea": 119
+    "countryIRI": "http://www.wikidata.org/entity/Q977",
+    "country": "Djibouti",
+    "rankByArea": 119
   },
   {
-    "country": "http://www.wikidata.org/entity/Q25",
-    "countryLabel": "Wales",
-    "rankedByArea": 120
+    "countryIRI": "http://www.wikidata.org/entity/Q25",
+    "country": "Wales",
+    "rankByArea": 120
   },
   {
-    "country": "http://www.wikidata.org/entity/Q801",
-    "countryLabel": "Israel",
-    "rankedByArea": 121
+    "countryIRI": "http://www.wikidata.org/entity/Q801",
+    "country": "Israel",
+    "rankByArea": 121
   },
   {
-    "country": "http://www.wikidata.org/entity/Q792",
-    "countryLabel": "El Salvador",
-    "rankedByArea": 122
+    "countryIRI": "http://www.wikidata.org/entity/Q792",
+    "country": "El Salvador",
+    "rankByArea": 122
   },
   {
-    "country": "http://www.wikidata.org/entity/Q712",
-    "countryLabel": "Fiji",
-    "rankedByArea": 123
+    "countryIRI": "http://www.wikidata.org/entity/Q712",
+    "country": "Fiji",
+    "rankByArea": 123
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1050",
-    "countryLabel": "Eswatini",
-    "rankedByArea": 124
+    "countryIRI": "http://www.wikidata.org/entity/Q1050",
+    "country": "Eswatini",
+    "rankByArea": 124
   },
   {
-    "country": "http://www.wikidata.org/entity/Q574",
-    "countryLabel": "East Timor",
-    "rankedByArea": 125
+    "countryIRI": "http://www.wikidata.org/entity/Q574",
+    "country": "East Timor",
+    "rankByArea": 125
   },
   {
-    "country": "http://www.wikidata.org/entity/Q778",
-    "countryLabel": "Bahamas",
-    "rankedByArea": 126
+    "countryIRI": "http://www.wikidata.org/entity/Q778",
+    "country": "Bahamas",
+    "rankByArea": 126
   },
   {
-    "country": "http://www.wikidata.org/entity/Q236",
-    "countryLabel": "Montenegro",
-    "rankedByArea": 127
+    "countryIRI": "http://www.wikidata.org/entity/Q236",
+    "country": "Montenegro",
+    "rankByArea": 127
   },
   {
-    "country": "http://www.wikidata.org/entity/Q686",
-    "countryLabel": "Vanuatu",
-    "rankedByArea": 128
+    "countryIRI": "http://www.wikidata.org/entity/Q686",
+    "country": "Vanuatu",
+    "rankByArea": 128
   },
   {
-    "country": "http://www.wikidata.org/entity/Q244165",
-    "countryLabel": "Artsakh",
-    "rankedByArea": 129
+    "countryIRI": "http://www.wikidata.org/entity/Q244165",
+    "country": "Artsakh",
+    "rankByArea": 129
   },
   {
-    "country": "http://www.wikidata.org/entity/Q846",
-    "countryLabel": "Qatar",
-    "rankedByArea": 130
+    "countryIRI": "http://www.wikidata.org/entity/Q846",
+    "country": "Qatar",
+    "rankByArea": 130
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1005",
-    "countryLabel": "Gambia",
-    "rankedByArea": 131
+    "countryIRI": "http://www.wikidata.org/entity/Q1005",
+    "country": "Gambia",
+    "rankByArea": 131
   },
   {
-    "country": "http://www.wikidata.org/entity/Q766",
-    "countryLabel": "Jamaica",
-    "rankedByArea": 132
+    "countryIRI": "http://www.wikidata.org/entity/Q766",
+    "country": "Jamaica",
+    "rankByArea": 132
   },
   {
-    "country": "http://www.wikidata.org/entity/Q822",
-    "countryLabel": "Lebanon",
-    "rankedByArea": 133
+    "countryIRI": "http://www.wikidata.org/entity/Q822",
+    "country": "Lebanon",
+    "rankByArea": 133
   },
   {
-    "country": "http://www.wikidata.org/entity/Q921",
-    "countryLabel": "Brunei",
-    "rankedByArea": 134
+    "countryIRI": "http://www.wikidata.org/entity/Q921",
+    "country": "Brunei",
+    "rankByArea": 134
   },
   {
-    "country": "http://www.wikidata.org/entity/Q754",
-    "countryLabel": "Trinidad and Tobago",
-    "rankedByArea": 135
+    "countryIRI": "http://www.wikidata.org/entity/Q754",
+    "country": "Trinidad and Tobago",
+    "rankByArea": 135
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1011",
-    "countryLabel": "Cape Verde",
-    "rankedByArea": 136
+    "countryIRI": "http://www.wikidata.org/entity/Q1011",
+    "country": "Cape Verde",
+    "rankByArea": 136
   },
   {
-    "country": "http://www.wikidata.org/entity/Q683",
-    "countryLabel": "Samoa",
-    "rankedByArea": 137
+    "countryIRI": "http://www.wikidata.org/entity/Q683",
+    "country": "Samoa",
+    "rankByArea": 137
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1027",
-    "countryLabel": "Mauritius",
-    "rankedByArea": 138
+    "countryIRI": "http://www.wikidata.org/entity/Q1027",
+    "country": "Mauritius",
+    "rankByArea": 138
   },
   {
-    "country": "http://www.wikidata.org/entity/Q970",
-    "countryLabel": "Comoros",
-    "rankedByArea": 139
+    "countryIRI": "http://www.wikidata.org/entity/Q970",
+    "country": "Comoros",
+    "rankByArea": 139
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1039",
-    "countryLabel": "São Tomé and Príncipe",
-    "rankedByArea": 140
+    "countryIRI": "http://www.wikidata.org/entity/Q1039",
+    "country": "São Tomé and Príncipe",
+    "rankByArea": 140
   },
   {
-    "country": "http://www.wikidata.org/entity/Q710",
-    "countryLabel": "Kiribati",
-    "rankedByArea": 141
+    "countryIRI": "http://www.wikidata.org/entity/Q710",
+    "country": "Kiribati",
+    "rankByArea": 141
   },
   {
-    "country": "http://www.wikidata.org/entity/Q398",
-    "countryLabel": "Bahrain",
-    "rankedByArea": 142
+    "countryIRI": "http://www.wikidata.org/entity/Q398",
+    "country": "Bahrain",
+    "rankByArea": 142
   },
   {
-    "country": "http://www.wikidata.org/entity/Q784",
-    "countryLabel": "Dominica",
-    "rankedByArea": 143
+    "countryIRI": "http://www.wikidata.org/entity/Q784",
+    "country": "Dominica",
+    "rankByArea": 143
   },
   {
-    "country": "http://www.wikidata.org/entity/Q334",
-    "countryLabel": "Singapore",
-    "rankedByArea": 144
+    "countryIRI": "http://www.wikidata.org/entity/Q334",
+    "country": "Singapore",
+    "rankByArea": 144
   },
   {
-    "country": "http://www.wikidata.org/entity/Q702",
-    "countryLabel": "Federated States of Micronesia",
-    "rankedByArea": 145
+    "countryIRI": "http://www.wikidata.org/entity/Q702",
+    "country": "Federated States of Micronesia",
+    "rankByArea": 145
   },
   {
-    "country": "http://www.wikidata.org/entity/Q760",
-    "countryLabel": "Saint Lucia",
-    "rankedByArea": 146
+    "countryIRI": "http://www.wikidata.org/entity/Q760",
+    "country": "Saint Lucia",
+    "rankByArea": 146
   },
   {
-    "country": "http://www.wikidata.org/entity/Q695",
-    "countryLabel": "Palau",
-    "rankedByArea": 147
+    "countryIRI": "http://www.wikidata.org/entity/Q695",
+    "country": "Palau",
+    "rankByArea": 147
   },
   {
-    "country": "http://www.wikidata.org/entity/Q16644",
-    "countryLabel": "Northern Mariana Islands",
-    "rankedByArea": 148
+    "countryIRI": "http://www.wikidata.org/entity/Q16644",
+    "country": "Northern Mariana Islands",
+    "rankByArea": 148
   },
   {
-    "country": "http://www.wikidata.org/entity/Q1042",
-    "countryLabel": "Seychelles",
-    "rankedByArea": 149
+    "countryIRI": "http://www.wikidata.org/entity/Q1042",
+    "country": "Seychelles",
+    "rankByArea": 149
   },
   {
-    "country": "http://www.wikidata.org/entity/Q781",
-    "countryLabel": "Antigua and Barbuda",
-    "rankedByArea": 150
+    "countryIRI": "http://www.wikidata.org/entity/Q781",
+    "country": "Antigua and Barbuda",
+    "rankByArea": 150
   },
   {
-    "country": "http://www.wikidata.org/entity/Q244",
-    "countryLabel": "Barbados",
-    "rankedByArea": 151
+    "countryIRI": "http://www.wikidata.org/entity/Q244",
+    "country": "Barbados",
+    "rankByArea": 151
   },
   {
-    "country": "http://www.wikidata.org/entity/Q757",
-    "countryLabel": "Saint Vincent and the Grenadines",
-    "rankedByArea": 152
+    "countryIRI": "http://www.wikidata.org/entity/Q757",
+    "country": "Saint Vincent and the Grenadines",
+    "rankByArea": 152
   },
   {
-    "country": "http://www.wikidata.org/entity/Q769",
-    "countryLabel": "Grenada",
-    "rankedByArea": 153
+    "countryIRI": "http://www.wikidata.org/entity/Q769",
+    "country": "Grenada",
+    "rankByArea": 153
   },
   {
-    "country": "http://www.wikidata.org/entity/Q826",
-    "countryLabel": "Maldives",
-    "rankedByArea": 154
+    "countryIRI": "http://www.wikidata.org/entity/Q826",
+    "country": "Maldives",
+    "rankByArea": 154
   },
   {
-    "country": "http://www.wikidata.org/entity/Q763",
-    "countryLabel": "Saint Kitts and Nevis",
-    "rankedByArea": 155
+    "countryIRI": "http://www.wikidata.org/entity/Q763",
+    "country": "Saint Kitts and Nevis",
+    "rankByArea": 155
   },
   {
-    "country": "http://www.wikidata.org/entity/Q34020",
-    "countryLabel": "Niue",
-    "rankedByArea": 156
+    "countryIRI": "http://www.wikidata.org/entity/Q34020",
+    "country": "Niue",
+    "rankByArea": 156
   },
   {
-    "country": "http://www.wikidata.org/entity/Q26988",
-    "countryLabel": "Cook Islands",
-    "rankedByArea": 157
+    "countryIRI": "http://www.wikidata.org/entity/Q26988",
+    "country": "Cook Islands",
+    "rankByArea": 157
   },
   {
-    "country": "http://www.wikidata.org/entity/Q709",
-    "countryLabel": "Marshall Islands",
-    "rankedByArea": 158
+    "countryIRI": "http://www.wikidata.org/entity/Q709",
+    "country": "Marshall Islands",
+    "rankByArea": 158
   },
   {
-    "country": "http://www.wikidata.org/entity/Q672",
-    "countryLabel": "Tuvalu",
-    "rankedByArea": 159
+    "countryIRI": "http://www.wikidata.org/entity/Q672",
+    "country": "Tuvalu",
+    "rankByArea": 159
   },
   {
-    "country": "http://www.wikidata.org/entity/Q697",
-    "countryLabel": "Nauru",
-    "rankedByArea": 160
+    "countryIRI": "http://www.wikidata.org/entity/Q697",
+    "country": "Nauru",
+    "rankByArea": 160
   }
 ]
