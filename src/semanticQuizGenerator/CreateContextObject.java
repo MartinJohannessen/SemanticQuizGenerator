@@ -35,6 +35,7 @@ public class CreateContextObject {
 				put("income", propertyBase + "P3529");
 				put("inception", propertyBase + "P571");
 				put("airport", entityBase + "Q1248784");
+				put("rankByArea", "http://www.semanticQuizGenerator.org/" + "rankByArea");
 			}
 		};
 
