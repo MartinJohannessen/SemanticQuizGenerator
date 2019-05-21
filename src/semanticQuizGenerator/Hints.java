@@ -1,5 +1,8 @@
 package semanticQuizGenerator;
  
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -103,12 +106,16 @@ public class Hints {
     	if (subject.contains("GDP") || (subject.contains("income"))){
     		string = string + " US$";
     	}
-    	
     	if (string.contains("altitude")){
     		string = string + " metres";
     	}
     	if (string.contains("population")){
-    		string = string + " people";
+    		String newPopulation = string;
+    		newPopulation = newPopulation.replace("population: ", "");
+    		newPopulation = newPopulation.replace("population of the capital: ", "");
+    		Double formattedPopulation = Double.parseDouble(newPopulation);
+    		
+    		string = subject + ": " + NumberFormat.getInstance().format(formattedPopulation);
     	}
     	if (string.contains("life")){
     		string = string + " years";
