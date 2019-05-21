@@ -18,8 +18,11 @@ public class CreateModel {
 		String capitalsJSON = JSONParser.readJson("src/data/capitals.json");
 		String countriesJSON = JSONParser.readJson("src/data/countries.json");
 		String countriesRankedByAreaJSON = JSONParser.readJson("src/data/countriesRankedByArea.json");
-		String allJSON = countriesJSON.substring(0, countriesJSON.length()-2)+", "+capitalsJSON.substring(1);
-
+		
+		String capCountJSON = countriesJSON.substring(0, countriesJSON.length()-2)+", "+capitalsJSON.substring(1);
+		String allJSON = capCountJSON.substring(0, capCountJSON.length()-2)+","+countriesRankedByAreaJSON.substring(1);
+		//System.out.println(allJSON);
+		
 		CreateContextObject createContext = new CreateContextObject();
 		Object jsonObj = null;
 		try {
