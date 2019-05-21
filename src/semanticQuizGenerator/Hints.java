@@ -50,9 +50,7 @@ public class Hints {
     	countryQuery(capitalIRI, "https://www.wikidata.org/wiki/Property:P1082", "population of the capital");
     	countryQuery(capitalIRI, "https://www.wikidata.org/wiki/Property:P2044", "altitude of the highest point of the capital");
     	countryQuery(capitalIRI, "http://www.wikidata.org/wiki/Q1248784", "airport of the capital");
-    	countryQuery(capitalIRI, "https://www.wikidata.org/wiki/Property:P206", "the capital is located next to");
-    	//query(countryIRI, "https://www.wikidata.org/wiki/Property:P2046", "area");
-    	
+    	countryQuery(capitalIRI, "https://www.wikidata.org/wiki/Property:P206", "the capital is located next to");  	
     }
     
     public static String getCapitalIRI() {
