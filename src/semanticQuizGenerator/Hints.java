@@ -14,6 +14,7 @@ public class Hints {
 	static Model model;
     static String countryIRI;
     static String capitalIRI;
+    // a list containing all hints about one country
     static List<String> hints;
    
     public Hints(Model model, String countryIRI) {
@@ -59,24 +60,25 @@ public class Hints {
     }
     
     /**
-     * queries the model to get the IRI of the capital of country 
+     * queries the model to get the IRI of the capital of a country 
      * @return capitalIRI
      */
     public static String getCapitalIRI() {
     	ParameterizedSparqlString pss = new ParameterizedSparqlString();
+    	//selects a capitals IRI corresponding a to a specific country
         pss.setCommandText(""
         		+ "SELECT ?capital WHERE {"
 				+ "		?capital <https://www.wikidata.org/wiki/Property:P1376> ?c." 
 				+ "		?capital <https://www.wikidata.org/wiki/Property:P36> ?capitalLabel." 
 				+ "		?country <https://www.wikidata.org/wiki/Property:P36> ?capitalLabel."
                 + "}");
-       
         pss.setIri("country", countryIRI);
         Query query = pss.asQuery();
         QueryExecution queryExecution = QueryExecutionFactory.create(query, model);  
         ResultSet resultSet = queryExecution.execSelect();
         resultSet.forEachRemaining(qsol -> {
         	capitalIRI = qsol.toString();
+        	//removes all the other parts of the string that is not the IRI
         	capitalIRI = capitalIRI.replace("( ?capital = <", "");
         	capitalIRI = capitalIRI.replace("> )", "");
         	
@@ -84,19 +86,29 @@ public class Hints {
         return capitalIRI;
     }
    
+    /**
+     * Selects information about a country or a capital, writes it as a hint
+     * adds the hint to the list of hints
+     * @param entity
+     * @param property
+     * @param subject
+     */
     public static void query(String entity, String property, String subject) {
         ParameterizedSparqlString pss = new ParameterizedSparqlString();
         pss.setCommandText(""
                 + "SELECT ?s WHERE {"
                 + "     ?e ?p ?s."
                 + "}");
-       
+        //sets the parameters into the query
         pss.setIri("e", entity);
         pss.setIri("p", property);
+        
+        //query the model
         Query query = pss.asQuery();
         QueryExecution queryExecution = QueryExecutionFactory.create(query, model);  
         ResultSet resultSet = queryExecution.execSelect();
         
+        //for every result write is as a hint and add it to the list of hints
         resultSet.forEachRemaining(qsol -> {
         	String s = qsol.toString();
         	s = cleanString(s, subject);
