@@ -15,6 +15,7 @@ import com.fasterxml.jackson.core.JsonGenerationException;
 public class TerminalQuiz {
 	String country = "http://www.wikidata.org/entity/Q20";
 	String countryLabel = "Norway";
+	int points;
 	
 	
 
@@ -44,11 +45,12 @@ public class TerminalQuiz {
 
 		Hints hints = new Hints(model, country);
 
-		int points = hints.size();
+		this.points = hints.size();
 
-		System.out.println("Enter 'hint' or |answer| below. This first hint is free: ");
+		System.out.println("START: ");
+		System.out.println("This first hint is free: \n");
 		for (String s: hints.hints) {
-			System.out.println("---"+s+"---");
+			System.out.println("---"+s+"---\n");
 
 			Scanner reader = new Scanner(System.in);  // Reading from System.in
 			String answer = reader.nextLine(); // Scans the next token of the input as an int.
@@ -58,10 +60,17 @@ public class TerminalQuiz {
 				break;
 			}
 			
-			points--;
+			this.points--;
 		}
-		System.out.println("Correct country: "+countryLabel+" Points: "+points+"\n\n");
-
+		System.out.println("Correct country: "+countryLabel+"\n");
 	}
+
+
+
+
+	public int getPoints() {
+		return points;
+	}
+	 
 	
 }
