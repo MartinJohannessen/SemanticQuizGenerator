@@ -10,7 +10,7 @@ public class QuizSessionGenerator {
 	
 	/**
 	 * creates a list with random countries
-	 * @param nQuizzes
+	 * @param nQuizzes the number of countries in the quiz
 	 * @return an ArrayList of strings containing n random countries 
 	 */
 	public static ArrayList<String> Session(int nQuizzes) {
@@ -44,7 +44,7 @@ public class QuizSessionGenerator {
 	
 	/**
 	 * generates a random int with a given upper range
-	 * @param upperRange
+	 * @param upperRange to ensure that the random int corresponds to a country
 	 * @return a random int between 0 and upperRanger
 	 */
 	public static int generateRandomInt(int upperRange){

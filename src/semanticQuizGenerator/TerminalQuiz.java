@@ -25,7 +25,9 @@ public class TerminalQuiz {
 	/**
 	 * prints the actual quiz to terminal
 	 * 
-	 * @param String countryIRI the IRI of a country 
+	 * @param countryIRI the IRI of a country 
+	 * @throws java.io.IOException if io fails
+	 * @throws com.fasterxml.jackson.core.JsonGenerationException if it fails
 	 */
 	 public TerminalQuiz(String countryIRI) throws JsonGenerationException, IOException {
 		this.country = countryIRI;

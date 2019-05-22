@@ -92,11 +92,11 @@ public class Hints {
     /**
      * Selects information about a country or a capital, writes it as a hint
      * adds the hint to the list of hints
-     * @param entity
-     * @param property
-     * @param subject
+     * @param entity the country
+     * @param property the property
+     * @param object the object of the query
      */
-    public static void query(String entity, String property, String subject) {
+    public static void query(String entity, String property, String object) {
         ParameterizedSparqlString pss = new ParameterizedSparqlString();
         pss.setCommandText(""
                 + "SELECT ?s WHERE {"
@@ -114,24 +114,24 @@ public class Hints {
         //for every result write is as a hint and add it to the list of hints
         resultSet.forEachRemaining(qsol -> {
         	String s = qsol.toString();
-        	s = cleanString(s, subject);
+        	s = cleanString(s, object);
         	hints.add(s);
         });
     }
     
     /**
      * remove parts of the string to make it more readable
-     * add the subject to the string
+     * add the object to the string
      * @param string the string that is being cleaned
-     * @param subject the subject from the query 
-     * @return
+     * @param object the object from the query 
+     * @return string a cleaned string
      */
-    public static String cleanString(String string, String subject) {
-    	string = string.replace("( ?s = \"", subject + ": ");
-    	string = string.replace("( ?s = ", subject + ": ");
+    public static String cleanString(String string, String object) {
+    	string = string.replace("( ?s = \"", object + ": ");
+    	string = string.replace("( ?s = ", object + ": ");
     	string = string.replace("\" )", "");
     	string = string.replace(" )", "");
-    	if (subject.contains("GDP") || (subject.contains("income"))){
+    	if (object.contains("GDP") || (object.contains("income"))){
     		string = string + " US$";
     	}
     	if (string.contains("altitude")){
@@ -144,7 +144,7 @@ public class Hints {
     		newPopulation = newPopulation.replace("population: ", "");
     		newPopulation = newPopulation.replace("population of the capital: ", "");
     		Double formattedPopulation = Double.parseDouble(newPopulation);
-    		string = subject + ": " + NumberFormat.getInstance().format(formattedPopulation);
+    		string = object + ": " + NumberFormat.getInstance().format(formattedPopulation);
     	}
     	if (string.contains("life")){
     		string = string + " years";

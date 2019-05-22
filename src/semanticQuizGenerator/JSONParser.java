@@ -10,7 +10,7 @@ public class JSONParser {
 	/**
      * Parses a JSON file into string format
      * 
-     * @param String path to a JSON file
+     * @param path to a JSON file
      * @return jsonString
      */
 	public static String readJson(String path) {

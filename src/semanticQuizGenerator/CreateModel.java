@@ -42,6 +42,8 @@ public class CreateModel {
 
 		//from JSON to JSON-LD using the context object
 		Object expandedObj = expandJSON(createContext.contextObj, jsonObj);
+		
+		//from JSON-LD to RDF model via string
 		String jsonStr;
 		try {
 			jsonStr = JsonUtils.toPrettyString(expandedObj);
@@ -56,10 +58,11 @@ public class CreateModel {
 	}
 	
 	/**
+	 * expands JSON to JSON-LD
 	 * 
-	 * @param contextObj
-	 * @param jsonObj
-	 * @return
+	 * @param contextObj a map for the properties in the JSON object
+	 * @param jsonObj all the json files in one object
+	 * @return flattenedExpandedObj a jsonLD object
 	 */
 	public static Object expandJSON(Map contextObj, Object jsonObj) {
 		 // create and set an options object
@@ -74,7 +77,7 @@ public class CreateModel {
 	
 	/**
 	 * Prints the model in turtle format
-	 * @param model
+	 * @param model a RDF model
 	 */
 	public void printModel(Model model) {
 		model.write(System.out, "TURTLE");
