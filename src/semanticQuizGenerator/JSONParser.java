@@ -4,11 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.LinkedHashMap;
-import java.util.Map;
-
-import com.github.jsonldjava.core.JsonLdOptions;
-import com.github.jsonldjava.core.JsonLdProcessor;
 
 public class JSONParser {
 
@@ -31,5 +26,4 @@ public class JSONParser {
 
 		return jsonString;
 	}
-
 }

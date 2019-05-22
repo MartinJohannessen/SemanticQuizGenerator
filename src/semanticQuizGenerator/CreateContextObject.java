@@ -3,16 +3,14 @@ package semanticQuizGenerator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import org.apache.jena.vocabulary.RDFS;
-
 public class CreateContextObject {
 	String entityBase = "http://www.wikidata.org/wiki/";
 	String propertyBase = "https://www.wikidata.org/wiki/Property:";
 	Map contextObj;
 
 	public CreateContextObject() {
-		// Create context object for the resources
-		contextObj = new LinkedHashMap() {
+		//Add all properties to the context object
+		this.contextObj = new LinkedHashMap<String, String>() {
 			{
 				put("countryIRI", "@id");
 				put("capitalIRI", "@id");

@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import com.fasterxml.jackson.core.JsonGenerationException;
-
 public class QuizGeneratorMain {
 
 
@@ -14,7 +12,6 @@ public class QuizGeneratorMain {
 		System.out.println("Please enter the number of countries you would like in your quiz: ");
 		Scanner reader = new Scanner(System.in);  // Reading from System.in
 		int nr = reader.nextInt(); // Scans the next token of the input as an int.
-
 
 		System.out.println("RULES: ");
 		System.out.println("Enter your answer below. It's not case sensitive.");
@@ -29,15 +26,12 @@ public class QuizGeneratorMain {
 			countries = QuizSessionGenerator.Session(nr);
 			for (String s: countries) {
 				TerminalQuiz quiz = new TerminalQuiz(s);
-				points+=quiz.getPoints();
+				points += quiz.getPoints();
 			}
-
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
-
-		System.out.println("You have finished your rounds with "+points+" points");
+		System.out.println("You have finished your rounds with " + points + " points");
 	}
 }
