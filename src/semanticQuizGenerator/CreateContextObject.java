@@ -4,17 +4,19 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class CreateContextObject {
-	String entityBase = "http://www.wikidata.org/wiki/";
+	String propertyBaseLocal = "http://www.semanticQuizGenerator.org/";
 	String propertyBase = "https://www.wikidata.org/wiki/Property:";
 	Map contextObj;
 
+	/**
+     * creates a context object used to map the human language properties in the JSON files to IRIs.
+     */
 	public CreateContextObject() {
 		//Add all properties to the context object
 		this.contextObj = new LinkedHashMap<String, String>() {
 			{
 				put("countryIRI", "@id");
 				put("capitalIRI", "@id");
-
 				put("country", propertyBase + "P17");
 				put("capital", propertyBase + "P36");
 				put("capitalOf", propertyBase + "P1376");
@@ -32,8 +34,8 @@ public class CreateContextObject {
 				put("GDP", propertyBase + "P2132");
 				put("income", propertyBase + "P3529");
 				put("inception", propertyBase + "P571");
-				put("airport", entityBase + "Q1248784");
-				put("rankByArea", "http://www.semanticQuizGenerator.org/" + "rankByArea");
+				put("airport", propertyBaseLocal + "hasAirport");
+				put("rankByArea", propertyBaseLocal + "rankByArea");
 			}
 		};
 

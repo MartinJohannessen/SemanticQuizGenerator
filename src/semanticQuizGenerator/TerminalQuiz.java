@@ -11,6 +11,9 @@ import org.apache.jena.rdf.model.Model;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 
+/**
+ * terminal app for the semantic quiz generator
+ */
 public class TerminalQuiz {
 	
 	//the IRI of an country
@@ -19,12 +22,19 @@ public class TerminalQuiz {
 	String countryLabel;
 	int points;
 	
+	/**
+	 * prints the actual quiz to terminal
+	 * 
+	 * @param String countryIRI the IRI of a country 
+	 */
 	 public TerminalQuiz(String countryIRI) throws JsonGenerationException, IOException {
 		this.country = countryIRI;
 		
+		//create a model from the JSON files
 		Model model = CreateModel.createModel();
+		
+		// selects the name of the country from the IRI with a sparql query and substring
 		ParameterizedSparqlString pss = new ParameterizedSparqlString();
-		// selects the name of the country from the IRI
 		pss.setCommandText(""
 				+ "SELECT ?s WHERE {"
 				+ "     ?e <https://www.wikidata.org/wiki/Property:P17> ?s."
@@ -34,16 +44,17 @@ public class TerminalQuiz {
 		Query query = pss.asQuery();
 		QueryExecution queryExecution = QueryExecutionFactory.create(query, model);  
 		ResultSet resultSet = queryExecution.execSelect();
-
 		resultSet.forEachRemaining(qsol -> {
 			String s = qsol.toString();
 			s = s.substring(8, s.length()-3); 
 			this.countryLabel = s;
 		});
 
+		//get hints about a country by querying the model
 		Hints hints = new Hints(model, country);
 		this.points = hints.size();
 
+		//print the quiz of a single country
 		System.out.println("START: ");
 		System.out.println("This first hint is free: \n");
 		for (String s: hints.hints) {
@@ -53,7 +64,7 @@ public class TerminalQuiz {
 			String answer = reader.nextLine();
 			
 			if (answer.equalsIgnoreCase(countryLabel)) {
-				System.out.println("Correct Answer!");
+				System.out.println("Correct Answer! "+points+" points this round of "+ hints.size()+ " possible.");
 				break;
 			}
 			

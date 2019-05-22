@@ -38,6 +38,8 @@ public class Hints {
      */
     public static void createHints() {
     	String iriBase = "https://www.wikidata.org/wiki/Property:";
+    	String iriBaseLocal = "http://www.semanticQuizGenerator.org/";
+    	
     	query(countryIRI, iriBase + "P1082", "population");
     	query(countryIRI, iriBase + "P2044", "altitude of highest point");
     	query(countryIRI, iriBase + "P30", "continent");
@@ -50,12 +52,13 @@ public class Hints {
     	query(countryIRI, iriBase + "P2927", "water percent");
     	query(countryIRI, iriBase + "P2132", "GDP");
     	query(countryIRI, iriBase + "P3529", "income");
-    	query(countryIRI, iriBase + "P36", "capital");
-    	query(countryIRI, "http://www.semanticQuizGenerator.org/rankByArea", "world ranking by area");
-
+    	
+    	query(countryIRI, iriBaseLocal +"rankByArea", "world ranking by area");
+    	query(capitalIRI, iriBaseLocal + "hasAirport", "name of capital airport");
+    	
     	query(capitalIRI, iriBase + "P1082", "population of the capital");
     	query(capitalIRI, iriBase + "P2044", "altitude of the highest point of the capital");
-    	query(capitalIRI, "http://www.wikidata.org/wiki/Q1248784", "airport of the capital");
+    	query(countryIRI, iriBase + "P36", "capital");
     	query(capitalIRI, iriBase + "P206", "the capital is located next to");  	
     }
     
