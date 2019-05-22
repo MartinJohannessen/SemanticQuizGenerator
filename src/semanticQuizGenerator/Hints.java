@@ -50,7 +50,7 @@ public class Hints {
     	query(countryIRI, iriBase + "P2132", "GDP");
     	query(countryIRI, iriBase + "P3529", "income");
     	query(countryIRI, iriBase + "P36", "capital");
-    	query(countryIRI, "http://www.semanticQuizGenerator.org/rankByArea", "rank by area");
+    	query(countryIRI, "http://www.semanticQuizGenerator.org/rankByArea", "world ranking by area");
 
     	query(capitalIRI, iriBase + "P1082", "population of the capital");
     	query(capitalIRI, iriBase + "P2044", "altitude of the highest point of the capital");
