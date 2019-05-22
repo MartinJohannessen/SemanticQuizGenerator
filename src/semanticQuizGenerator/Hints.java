@@ -1,11 +1,8 @@
 package semanticQuizGenerator;
  
-import java.text.DecimalFormat;
 import java.text.NumberFormat;
-import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.apache.jena.query.ParameterizedSparqlString;
 import org.apache.jena.query.Query;
 import org.apache.jena.query.QueryExecution;
@@ -24,35 +21,47 @@ public class Hints {
         this.countryIRI = countryIRI;
         this.capitalIRI = getCapitalIRI();
         this.hints = new ArrayList<String>();
-        addHints();
+        createHints();
     }
     
+    /**
+     * 
+     * @return the size of the list that contains all the hints about one country
+     */
     public int size() {
     	return hints.size();
     }
     
-    public static void addHints() {
-    	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P1082", "population");
-    	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P2044", "altitude of highest point");
-    	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P30", "continent");
-    	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P610", "highest point");
-    	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P122", "type of government");
-    	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P2250", "life expectancy");
-    	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P206", "located next to water");
-    	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P35", "head of state");
-    	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P47", "shares border with");
-    	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P2927", "water percent");
-    	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P2132", "GDP");
-    	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P3529", "income");
-    	countryQuery(countryIRI, "https://www.wikidata.org/wiki/Property:P36", "capital");
-    	countryQuery(countryIRI, "http://www.semanticQuizGenerator.org/rankByArea", "rank by area");
+    /**
+     * creates all the hints for each country
+     */
+    public static void createHints() {
+    	String iriBase = "https://www.wikidata.org/wiki/Property:";
+    	query(countryIRI, iriBase + "P1082", "population");
+    	query(countryIRI, iriBase + "P2044", "altitude of highest point");
+    	query(countryIRI, iriBase + "P30", "continent");
+    	query(countryIRI, iriBase + "P610", "highest point");
+    	query(countryIRI, iriBase + "P122", "type of government");
+    	query(countryIRI, iriBase + "P2250", "life expectancy");
+    	query(countryIRI, iriBase + "P206", "located next to water");
+    	query(countryIRI, iriBase + "P35", "head of state");
+    	query(countryIRI, iriBase + "P47", "shares border with");
+    	query(countryIRI, iriBase + "P2927", "water percent");
+    	query(countryIRI, iriBase + "P2132", "GDP");
+    	query(countryIRI, iriBase + "P3529", "income");
+    	query(countryIRI, iriBase + "P36", "capital");
+    	query(countryIRI, "http://www.semanticQuizGenerator.org/rankByArea", "rank by area");
 
-    	countryQuery(capitalIRI, "https://www.wikidata.org/wiki/Property:P1082", "population of the capital");
-    	countryQuery(capitalIRI, "https://www.wikidata.org/wiki/Property:P2044", "altitude of the highest point of the capital");
-    	countryQuery(capitalIRI, "http://www.wikidata.org/wiki/Q1248784", "airport of the capital");
-    	countryQuery(capitalIRI, "https://www.wikidata.org/wiki/Property:P206", "the capital is located next to");  	
+    	query(capitalIRI, iriBase + "P1082", "population of the capital");
+    	query(capitalIRI, iriBase + "P2044", "altitude of the highest point of the capital");
+    	query(capitalIRI, "http://www.wikidata.org/wiki/Q1248784", "airport of the capital");
+    	query(capitalIRI, iriBase + "P206", "the capital is located next to");  	
     }
     
+    /**
+     * queries the model to get the IRI of the capital of country 
+     * @return capitalIRI
+     */
     public static String getCapitalIRI() {
     	ParameterizedSparqlString pss = new ParameterizedSparqlString();
         pss.setCommandText(""
@@ -70,11 +79,12 @@ public class Hints {
         	capitalIRI = qsol.toString();
         	capitalIRI = capitalIRI.replace("( ?capital = <", "");
         	capitalIRI = capitalIRI.replace("> )", "");
+        	
         });
-    	return capitalIRI;
+        return capitalIRI;
     }
    
-    public static void countryQuery(String entity, String property, String subject) {
+    public static void query(String entity, String property, String subject) {
         ParameterizedSparqlString pss = new ParameterizedSparqlString();
         pss.setCommandText(""
                 + "SELECT ?s WHERE {"
@@ -90,11 +100,17 @@ public class Hints {
         resultSet.forEachRemaining(qsol -> {
         	String s = qsol.toString();
         	s = cleanString(s, subject);
-        	
         	hints.add(s);
         });
     }
     
+    /**
+     * remove parts of the string to make it more readable
+     * add the subject to the string
+     * @param string the string that is being cleaned
+     * @param subject the subject from the query 
+     * @return
+     */
     public static String cleanString(String string, String subject) {
     	string = string.replace("( ?s = \"", subject + ": ");
     	string = string.replace("( ?s = ", subject + ": ");
@@ -107,11 +123,12 @@ public class Hints {
     		string = string + " metres";
     	}
     	if (string.contains("population")){
+    		//Formats the numbers to make them easier to read 
     		String newPopulation = string;
+    		//remove all the letters from the string 
     		newPopulation = newPopulation.replace("population: ", "");
     		newPopulation = newPopulation.replace("population of the capital: ", "");
     		Double formattedPopulation = Double.parseDouble(newPopulation);
-    		
     		string = subject + ": " + NumberFormat.getInstance().format(formattedPopulation);
     	}
     	if (string.contains("life")){
