@@ -7,9 +7,9 @@ import java.util.Scanner;
 /**
  * The main class of the Semantic Quiz Generator
  * 
- * @author      Karoline Øijorden
+ * @author      Karoline ï¿½ijorden
  * @author      Martin Johannessen
- * @author      Tor Stølsnes
+ * @author      Tor Stï¿½lsnes
  */
 public class QuizGeneratorMain {
 
@@ -22,8 +22,8 @@ public class QuizGeneratorMain {
 		while (reader.hasNext()) {
 			int input = reader.nextInt(); // Scans the next token of the input as an int
 			if (input > 0) nr = input;
-			break;
 			System.out.println("enter a whole postive number");
+			break;
 		}
 		
 		//print the rules for the game
