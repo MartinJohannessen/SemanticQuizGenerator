@@ -18,8 +18,14 @@ public class QuizGeneratorMain {
 		//ask user for how many countries they would like in their quiz
 		System.out.println("Please enter the number of countries you would like in your quiz: ");
 		Scanner reader = new Scanner(System.in);  // Reading from System.in
-		int nr = reader.nextInt(); // Scans the next token of the input as an int.
-
+		int nr = 0;
+		while (reader.hasNext()) {
+			int input = reader.nextInt(); // Scans the next token of the input as an int
+			if (input > 0) nr = input;
+			break;
+			System.out.println("enter a whole postive number");
+		}
+		
 		//print the rules for the game
 		System.out.println("RULES: ");
 		System.out.println("Enter your answer below. It's not case sensitive.");
@@ -42,7 +48,6 @@ public class QuizGeneratorMain {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 		System.out.println("You have finished your rounds with " + points + " points");
 	}
 }
