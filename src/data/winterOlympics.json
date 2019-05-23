@@ -1,0 +1,77 @@
+[
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q884",
+      "pointInTime":"2018",
+      "instanceOf":"Winter Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q17",
+      "pointInTime":"1940",
+      "instanceOf":"Winter Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q16",
+      "pointInTime":"1988",
+      "instanceOf":"Winter Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q17",
+      "pointInTime":"1972",
+      "instanceOf":"Winter Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q16",
+      "pointInTime":"2010",
+      "instanceOf":"Winter Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q17",
+      "pointInTime":"1998",
+      "instanceOf":"Winter Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q20",
+      "pointInTime":"1952",
+      "instanceOf":"Winter Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q20",
+      "pointInTime":"1994",
+      "instanceOf":"Winter Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q30",
+      "pointInTime":"1932",
+      "instanceOf":"Winter Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q30",
+      "pointInTime":"1960",
+      "instanceOf":"Winter Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q30",
+      "pointInTime":"1980",
+      "instanceOf":"Winter Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q30",
+      "pointInTime":"2002",
+      "instanceOf":"Winter Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q39",
+      "pointInTime":"1928",
+      "instanceOf":"Winter Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q39",
+      "pointInTime":"1948",
+      "instanceOf":"Winter Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q148",
+      "pointInTime":"2022",
+      "instanceOf":"Winter Olympic Games"
+   }
+]

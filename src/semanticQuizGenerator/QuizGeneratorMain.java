@@ -18,6 +18,7 @@ public class QuizGeneratorMain {
 		//ask user for how many countries they would like in their quiz
 		System.out.println("Please enter the number of countries you would like in your quiz: ");
 		Scanner reader = new Scanner(System.in);  // Reading from System.in
+
 		int nr = 0;
 		while (reader.hasNext()) {
 			int input = reader.nextInt(); // Scans the next token of the input as an int

@@ -25,10 +25,14 @@ public class CreateModel {
 		String capitalsJSON = JSONParser.readJson("src/data/capitals.json");
 		String countriesJSON = JSONParser.readJson("src/data/countries.json");
 		String countriesRankedByAreaJSON = JSONParser.readJson("src/data/countriesRankedByArea.json");
+		String summerOlympicsJSON = JSONParser.readJson("src/data/summerOlympics.json");
+		String winterOlympicsJSON = JSONParser.readJson("src/data/winterOlympics.json");
 		
 		//put all the JSON strings into one string by removing some parenthesis first 
 		String capCountJSON = countriesJSON.substring(0, countriesJSON.length()-2)+", "+capitalsJSON.substring(1);
 		String allJSON = capCountJSON.substring(0, capCountJSON.length()-2)+","+countriesRankedByAreaJSON.substring(1);
+		allJSON = allJSON.substring(0, allJSON.length()-2)+","+summerOlympicsJSON.substring(1);
+		allJSON = allJSON.substring(0, allJSON.length()-2)+","+winterOlympicsJSON.substring(1);
 		
 		//The context object is a map from human language properties to semantic resource properties
 		CreateContextObject createContext = new CreateContextObject();
@@ -79,7 +83,7 @@ public class CreateModel {
 	 * Prints the model in turtle format
 	 * @param model a RDF model
 	 */
-	public void printModel(Model model) {
+	public static void printModel(Model model) {
 		model.write(System.out, "TURTLE");
 	}
 }
