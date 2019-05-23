@@ -62,5 +62,5 @@ public class QuizSessionGenerator {
         string = string.replace("> )", "");
         return string;
     }
-
+	
 }
