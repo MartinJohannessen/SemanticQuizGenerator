@@ -7,9 +7,9 @@ import java.util.Scanner;
 /**
  * The main class of the Semantic Quiz Generator
  * 
- * @author      Karoline Øijorden
+ * @author      Karoline ï¿½ijorden
  * @author      Martin Johannessen
- * @author      Tor Stølsnes
+ * @author      Tor Stï¿½lsnes
  */
 public class QuizGeneratorMain {
 
@@ -18,7 +18,14 @@ public class QuizGeneratorMain {
 		//ask user for how many countries they would like in their quiz
 		System.out.println("Please enter the number of countries you would like in your quiz: ");
 		Scanner reader = new Scanner(System.in);  // Reading from System.in
-		int nr = reader.nextInt(); // Scans the next token of the input as an int
+
+		int nr = 0;
+		while (reader.hasNext()) {
+			int input = reader.nextInt(); // Scans the next token of the input as an int
+			if (input > 0) nr = input;
+			System.out.println("enter a whole postive number");
+			break;
+		}
 		
 		//print the rules for the game
 		System.out.println("RULES: ");

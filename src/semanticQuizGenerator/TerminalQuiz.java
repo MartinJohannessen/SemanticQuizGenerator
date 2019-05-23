@@ -62,13 +62,14 @@ public class TerminalQuiz {
 			String answer = reader.nextLine();
 			
 			if (answer.equalsIgnoreCase(countryLabel)) {
-				System.out.println("Correct Answer! "+points+" points this round of "+ hints.size()+ " possible.");
+				System.out.println("Correct Answer!");
 				break;
 			}
 			
 			this.points--;
 		}
-		System.out.println("Correct country: "+countryLabel+"\n");
+		System.out.print("The country was "+countryLabel+". ");
+		System.out.println("You got "+points+" points this round out of "+ hints.size()+ " possible.\n");
 	}
 
 	/**
