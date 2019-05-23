@@ -1,4 +1,4 @@
-SELECT DISTINCT ?countryLabel ?capitalLabel (YEAR(?year) as ?date) ?typeLabel WHERE {
+SELECT DISTINCT ?olympicsIRI ?countryLabel (YEAR(?year) as ?pointOfTime) ?typeLabel WHERE {
   ?country wdt:P31 wd:Q6256.
   ?country wdt:P36 ?capital.
   ?olympics wdt:P31 wd:Q159821.
