@@ -18,12 +18,19 @@ public class QuizGeneratorMain {
 		//ask user for how many countries they would like in their quiz
 		System.out.println("Please enter the number of countries you would like in your quiz: ");
 		Scanner reader = new Scanner(System.in);  // Reading from System.in
-
 		int nr = 0;
-		while (reader.hasNext()) {
+		int maxNr = 71;
+		while (reader.hasNextInt()) {
 			int input = reader.nextInt(); // Scans the next token of the input as an int
-			if (input > 0) nr = input;
-			System.out.println("enter a whole postive number");
+			while (input < 0) {
+				System.out.println("Enter a whole postive number");
+				input = reader.nextInt();
+			}
+			if (input <= maxNr) nr = input;
+			else {
+				nr = maxNr;
+				System.out.println("Number of countries requested is higher than the maximum. Set to "+nr+".");
+			}
 			break;
 		}
 		
@@ -40,11 +47,15 @@ public class QuizGeneratorMain {
 		
 		//this is the ArrayList that holds the quiz session. For multiplayer functionality save countries and points to a database.
 		ArrayList<String> countries;
-		countries = QuizSessionGenerator.Session(nr);
-		for (String s: countries) {
-			TerminalQuiz quiz = new TerminalQuiz(s);
-			points += quiz.getPoints();
-		}
+//		try {
+			countries = QuizSessionGenerator.Session(nr);
+			for (String s: countries) {
+				TerminalQuiz quiz = new TerminalQuiz(s);
+				points += quiz.getPoints();
+			}
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
 		System.out.println("You have finished your rounds with " + points + " points");
 	}
 }
