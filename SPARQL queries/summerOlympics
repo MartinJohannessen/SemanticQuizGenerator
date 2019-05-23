@@ -1,9 +1,8 @@
 SELECT DISTINCT ?olympicsIRI ?countryLabel (YEAR(?year) as ?pointOfTime) ?typeLabel WHERE {
   ?country wdt:P31 wd:Q6256.
-  ?country wdt:P36 ?capital.
-  ?olympics wdt:P31 wd:Q159821.
-  ?olympics wdt:P17 ?country.
-  ?olympics wdt:P585 ?year.
-  ?olympics wdt:P31 ?type.
+  ?olympicsIRI wdt:P31 wd:Q159821.
+  ?olympicsIRI wdt:P17 ?country.
+  ?olympicsIRI wdt:P585 ?year.
+  ?olympicsIRI wdt:P31 ?type.
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".}
 }
