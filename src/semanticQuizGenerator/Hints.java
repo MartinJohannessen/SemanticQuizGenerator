@@ -52,6 +52,7 @@ public class Hints {
     	query(countryIRI, iriBase + "P2927", "water percent");
     	query(countryIRI, iriBase + "P2132", "GDP");
     	query(countryIRI, iriBase + "P3529", "income");
+    	olympicQuery(countryIRI);
     	
     	query(countryIRI, iriBaseLocal +"rankByArea", "world ranking by area");
     	query(capitalIRI, iriBaseLocal + "hasAirport", "name of capital airport");
@@ -115,6 +116,36 @@ public class Hints {
         resultSet.forEachRemaining(qsol -> {
         	String s = qsol.toString();
         	s = cleanString(s, object);
+        	hints.add(s);
+        });
+    }
+    
+    /**
+     * adds a hint to the list if the country has held the olympic games
+     * @param entity the IRI of the country
+     */
+    public static void olympicQuery(String entity) {
+        ParameterizedSparqlString pss = new ParameterizedSparqlString();
+        pss.setCommandText(""
+                + "SELECT ?s ?y WHERE {"
+                + "     ?e <https://www.wikidata.org/wiki/Property:P31> ?s."
+                + "     ?e <https://www.wikidata.org/wiki/Property:P585> ?y."
+                + "}");
+        //sets the parameters into the query
+        pss.setIri("e", entity);
+        
+        //query the model
+        Query query = pss.asQuery();
+        QueryExecution queryExecution = QueryExecutionFactory.create(query, model);  
+        ResultSet resultSet = queryExecution.execSelect();
+        
+        //for every result write is as a hint and add it to the list of hints
+        resultSet.forEachRemaining(qsol -> {
+        	String s = qsol.toString();
+        	//strips the string so that it only contains event and year  
+        	String event = s.substring(8, s.length()-19);
+        	String year = s.substring(40, s.length()-3);
+        	s = "event: " + event + " in year " + year;
         	hints.add(s);
         });
     }
