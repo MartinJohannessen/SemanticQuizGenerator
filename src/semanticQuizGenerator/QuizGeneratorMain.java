@@ -40,14 +40,10 @@ public class QuizGeneratorMain {
 		
 		//this is the ArrayList that holds the quiz session. For multiplayer functionality save countries and points to a database.
 		ArrayList<String> countries;
-		try {
-			countries = QuizSessionGenerator.Session(nr);
-			for (String s: countries) {
-				TerminalQuiz quiz = new TerminalQuiz(s);
-				points += quiz.getPoints();
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
+		countries = QuizSessionGenerator.Session(nr);
+		for (String s: countries) {
+			TerminalQuiz quiz = new TerminalQuiz(s);
+			points += quiz.getPoints();
 		}
 		System.out.println("You have finished your rounds with " + points + " points");
 	}
