@@ -36,6 +36,8 @@ public class CreateContextObject {
 				put("inception", propertyBase + "P571");
 				put("airport", propertyBaseLocal + "hasAirport");
 				put("rankByArea", propertyBaseLocal + "rankByArea");
+				put("pointInTime", propertyBase + "P585");
+				put("instanceOf", propertyBase + "P31");
 			}
 		};
 

@@ -1,6 +1,5 @@
 package semanticQuizGenerator;
 
-import java.io.IOException;
 import java.util.Scanner;
 import org.apache.jena.query.ParameterizedSparqlString;
 import org.apache.jena.query.Query;
@@ -9,7 +8,6 @@ import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Model;
 
-import com.fasterxml.jackson.core.JsonGenerationException;
 
 /**
  * terminal app for the semantic quiz generator
@@ -26,10 +24,8 @@ public class TerminalQuiz {
 	 * prints the actual quiz to terminal
 	 * 
 	 * @param countryIRI the IRI of a country 
-	 * @throws java.io.IOException if io fails
-	 * @throws com.fasterxml.jackson.core.JsonGenerationException if it fails
 	 */
-	 public TerminalQuiz(String countryIRI) throws JsonGenerationException, IOException {
+	 public TerminalQuiz(String countryIRI) {
 		this.country = countryIRI;
 		
 		//create a model from the JSON files
@@ -66,16 +62,20 @@ public class TerminalQuiz {
 			String answer = reader.nextLine();
 			
 			if (answer.equalsIgnoreCase(countryLabel)) {
-				System.out.println("Correct Answer! "+points+" points this round of "+ hints.size()+ " possible.");
+				System.out.println("Correct Answer!");
 				break;
 			}
 			
 			this.points--;
 		}
-		System.out.println("Correct country: "+countryLabel+"\n");
+		System.out.print("The country was "+countryLabel+". ");
+		System.out.println("You got "+points+" points this round out of "+ hints.size()+ " possible.\n");
 	}
 
-
+	/**
+	 * 
+	 * @return the number of points in this round if the game
+	 */
 	public int getPoints() {
 		return this.points;
 	}

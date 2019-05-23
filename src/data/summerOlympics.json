@@ -1,0 +1,97 @@
+[
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q408",
+      "pointInTime":"1956",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q408",
+      "pointInTime":"2000",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q884",
+      "pointInTime":"1988",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q17",
+      "pointInTime":"1940",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q16",
+      "pointInTime":"1976",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q17",
+      "pointInTime":"1964",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q17",
+      "pointInTime":"2020",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q30",
+      "pointInTime":"1904",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q30",
+      "pointInTime":"1932",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q30",
+      "pointInTime":"1984",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q30",
+      "pointInTime":"1996",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q30",
+      "pointInTime":"2028",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q55",
+      "pointInTime":"1928",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q96",
+      "pointInTime":"1968",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q145",
+      "pointInTime":"1944",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q145",
+      "pointInTime":"1948",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q145",
+      "pointInTime":"2012",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q148",
+      "pointInTime":"2008",
+      "instanceOf":"Summer Olympic Games"
+   },
+   {
+      "countryIRI":"http://www.wikidata.org/entity/Q155",
+      "pointInTime":"2016",
+      "instanceOf":"Summer Olympic Games"
+   }
+]

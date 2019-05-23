@@ -7,9 +7,9 @@ import java.util.Scanner;
 /**
  * The main class of the Semantic Quiz Generator
  * 
- * @author      Karoline Øijorden
+ * @author      Karoline ï¿½ijorden
  * @author      Martin Johannessen
- * @author      Tor Stølsnes
+ * @author      Tor Stï¿½lsnes
  */
 public class QuizGeneratorMain {
 
@@ -18,12 +18,13 @@ public class QuizGeneratorMain {
 		//ask user for how many countries they would like in their quiz
 		System.out.println("Please enter the number of countries you would like in your quiz: ");
 		Scanner reader = new Scanner(System.in);  // Reading from System.in
+
 		int nr = 0;
 		while (reader.hasNext()) {
 			int input = reader.nextInt(); // Scans the next token of the input as an int
 			if (input > 0) nr = input;
-			break;
 			System.out.println("enter a whole postive number");
+			break;
 		}
 		
 		//print the rules for the game
@@ -39,14 +40,10 @@ public class QuizGeneratorMain {
 		
 		//this is the ArrayList that holds the quiz session. For multiplayer functionality save countries and points to a database.
 		ArrayList<String> countries;
-		try {
-			countries = QuizSessionGenerator.Session(nr);
-			for (String s: countries) {
-				TerminalQuiz quiz = new TerminalQuiz(s);
-				points += quiz.getPoints();
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
+		countries = QuizSessionGenerator.Session(nr);
+		for (String s: countries) {
+			TerminalQuiz quiz = new TerminalQuiz(s);
+			points += quiz.getPoints();
 		}
 		System.out.println("You have finished your rounds with " + points + " points");
 	}
