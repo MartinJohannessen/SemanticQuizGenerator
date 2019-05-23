@@ -17,6 +17,7 @@ public class CreateContextObject {
 			{
 				put("countryIRI", "@id");
 				put("capitalIRI", "@id");
+				put("olympicsIRI", "@id");
 				put("country", propertyBase + "P17");
 				put("capital", propertyBase + "P36");
 				put("capitalOf", propertyBase + "P1376");

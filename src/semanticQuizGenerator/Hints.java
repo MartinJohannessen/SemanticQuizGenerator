@@ -127,12 +127,14 @@ public class Hints {
     public static void olympicQuery(String entity) {
         ParameterizedSparqlString pss = new ParameterizedSparqlString();
         pss.setCommandText(""
-                + "SELECT ?s ?y WHERE {"
-                + "     ?e <https://www.wikidata.org/wiki/Property:P31> ?s."
-                + "     ?e <https://www.wikidata.org/wiki/Property:P585> ?y."
+                + "SELECT ?event ?y WHERE {"
+                + "     ?iri <https://www.wikidata.org/wiki/Property:P17> ?label."
+                + "     ?s <https://www.wikidata.org/wiki/Property:P17> ?label."
+                + "		?s <https://www.wikidata.org/wiki/Property:P31> ?event."
+                + "     ?s <https://www.wikidata.org/wiki/Property:P585> ?y."
                 + "}");
         //sets the parameters into the query
-        pss.setIri("e", entity);
+        pss.setIri("iri", entity);
         
         //query the model
         Query query = pss.asQuery();
@@ -143,8 +145,8 @@ public class Hints {
         resultSet.forEachRemaining(qsol -> {
         	String s = qsol.toString();
         	//strips the string so that it only contains event and year  
-        	String event = s.substring(8, s.length()-19);
-        	String year = s.substring(40, s.length()-3);
+        	String event = s.substring(12, s.length()-19);
+        	String year = s.substring(44, s.length()-3);
         	s = "event: " + event + " in year " + year;
         	hints.add(s);
         });
