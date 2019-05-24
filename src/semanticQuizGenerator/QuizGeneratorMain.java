@@ -7,9 +7,9 @@ import java.util.Scanner;
 /**
  * The main class of the Semantic Quiz Generator
  * 
- * @author      Karoline �ijorden
- * @author      Martin Johannessen
- * @author      Tor St�lsnes
+ * @author      143
+ * @author      137
+ * @author      139
  */
 public class QuizGeneratorMain {
 
